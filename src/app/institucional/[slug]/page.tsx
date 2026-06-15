@@ -334,6 +334,7 @@ export default function InstitutionalPage({
             {/* Formulario de Contacto */}
             <div
               style={{
+                alignSelf: 'start',
                 backgroundColor: '#0c0c0c',
                 border: '1px solid #222',
                 borderRadius: '12px',
