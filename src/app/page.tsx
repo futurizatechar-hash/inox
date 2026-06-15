@@ -8,10 +8,11 @@ import styles from './page.module.css';
 
 export default function Home() {
   const allProducts = getProducts();
-  
+
   // Buscar productos marcados como destacados o tomar los primeros 4 por defecto
-  const featured = allProducts.filter(p => p.featured).slice(0, 4);
-  const displayProducts = featured.length > 0 ? featured : allProducts.slice(0, 4);
+  const featured = allProducts.filter((p) => p.featured).slice(0, 4);
+  const displayProducts =
+    featured.length > 0 ? featured : allProducts.slice(0, 4);
 
   // Generar productos aleatorios para las nuevas secciones
   const getRandomProducts = (count: number) => {
@@ -31,21 +32,31 @@ export default function Home() {
             <div className={styles.heroTextCol}>
               <span className={styles.heroEyebrow}>Desde 1987</span>
               <h1 className={styles.heroTitle}>
-                Acero inoxidable<br />
+                Acero inoxidable
+                <br />
                 de alta precisión
               </h1>
               <p className={styles.heroSubtitle}>
-                Fabricamos bachas, piletas y mesadas con acero AISI 304 de primera calidad para todo el país.
+                Fabricamos bachas, piletas y mesadas con acero AISI 304 de
+                primera calidad para todo el país.
               </p>
-              
+
               <div className={styles.heroActions}>
                 <Link href="/categoria/bachas">
-                  <Button size="large" variant="accent" className={styles.heroPrimaryBtn}>
+                  <Button
+                    size="large"
+                    variant="accent"
+                    className={styles.heroPrimaryBtn}
+                  >
                     VER PRODUCTOS
                   </Button>
                 </Link>
                 <Link href="/institucional/contacto">
-                  <Button size="large" variant="secondary" className={styles.heroOutlineBtn}>
+                  <Button
+                    size="large"
+                    variant="secondary"
+                    className={styles.heroOutlineBtn}
+                  >
                     CONTACTO
                   </Button>
                 </Link>
@@ -63,21 +74,27 @@ export default function Home() {
               <Truck className={styles.trustIcon} size={32} />
               <div className={styles.trustText}>
                 <span className={styles.trustTitle}>Envíos a todo el país</span>
-                <span className={styles.trustDesc}>Gratis en compras superiores a $159.000</span>
+                <span className={styles.trustDesc}>
+                  Gratis en compras superiores a $159.000
+                </span>
               </div>
             </div>
             <div className={styles.trustItem}>
               <CreditCard className={styles.trustIcon} size={32} />
               <div className={styles.trustText}>
                 <span className={styles.trustTitle}>Pagá en cuotas fijas</span>
-                <span className={styles.trustDesc}>Con todas las tarjetas a través de MercadoPago</span>
+                <span className={styles.trustDesc}>
+                  Con todas las tarjetas a través de MercadoPago
+                </span>
               </div>
             </div>
             <div className={styles.trustItem}>
               <ShieldCheck className={styles.trustIcon} size={32} />
               <div className={styles.trustText}>
                 <span className={styles.trustTitle}>Garantía oficial</span>
-                <span className={styles.trustDesc}>Todos nuestros productos tienen garantía de fábrica</span>
+                <span className={styles.trustDesc}>
+                  Todos nuestros productos tienen garantía de fábrica
+                </span>
               </div>
             </div>
           </div>
@@ -97,8 +114,8 @@ export default function Home() {
           </div>
           <div className={styles.productGrid}>
             {displayProducts.map((product) => (
-              <ProductCard 
-                key={product.id} 
+              <ProductCard
+                key={product.id}
                 id={product.id}
                 title={product.title}
                 price={product.price}
@@ -113,7 +130,7 @@ export default function Home() {
       </section>
 
       {/* OFERTA RELAMPAGO */}
-      <section className={styles.section} style={{ paddingTop: 0 }}>
+      <section className={styles.section}>
         <Container>
           <div className={styles.sectionHeader}>
             <h2 className={styles.sectionTitle}>Oferta Relámpago ⚡</h2>
@@ -125,12 +142,12 @@ export default function Home() {
           </div>
           <div className={styles.productGrid}>
             {flashSaleProducts.map((product) => (
-              <ProductCard 
-                key={`flash-${product.id}`} 
+              <ProductCard
+                key={`flash-${product.id}`}
                 id={product.id}
                 title={product.title}
                 price={product.price}
-                comparePrice={product.comparePrice || (product.price * 1.2)}
+                comparePrice={product.comparePrice || product.price * 1.2}
                 category={product.category}
                 image={product.image}
                 badges={[{ label: 'Oferta', variant: 'error' }]}
@@ -141,7 +158,7 @@ export default function Home() {
       </section>
 
       {/* MAS VENDIDOS */}
-      <section className={styles.section} style={{ paddingTop: 0 }}>
+      <section className={styles.section}>
         <Container>
           <div className={styles.sectionHeader}>
             <h2 className={styles.sectionTitle}>Más Vendidos 🔥</h2>
@@ -153,8 +170,8 @@ export default function Home() {
           </div>
           <div className={styles.productGrid}>
             {bestSellersProducts.map((product) => (
-              <ProductCard 
-                key={`best-${product.id}`} 
+              <ProductCard
+                key={`best-${product.id}`}
                 id={product.id}
                 title={product.title}
                 price={product.price}
@@ -175,8 +192,8 @@ export default function Home() {
             ¿Sos profesional o tenés un local gastronómico?
           </h2>
           <p className={styles.promoDesc}>
-            Conocé nuestra línea industrial. Fabricamos a medida con acero de calidad
-            304 para cumplir con las máximas exigencias sanitarias.
+            Conocé nuestra línea industrial. Fabricamos a medida con acero de
+            calidad 304 para cumplir con las máximas exigencias sanitarias.
           </p>
           <Link href="/categoria/industrial">
             <Button size="large" variant="primary">

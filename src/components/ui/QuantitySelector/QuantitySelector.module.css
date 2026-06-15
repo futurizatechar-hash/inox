@@ -4,8 +4,14 @@
   border: 1px solid var(--border-strong);
   border-radius: var(--radius-md);
   overflow: hidden;
-  height: 46px;
+  height: 40px;
   background-color: var(--bg-primary);
+}
+
+@media (min-width: 768px) {
+  .container {
+    height: 46px;
+  }
 }
 
 .button {

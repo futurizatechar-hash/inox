@@ -17,14 +17,22 @@
 }
 
 .option {
-  padding: 8px 14px;
+  padding: 6px 10px;
   border: 1px solid var(--border-default);
   border-radius: var(--radius-md);
-  font-size: var(--text-body-sm);
+  font-size: var(--text-body-xs);
   font-weight: var(--font-medium);
   color: var(--text-secondary);
   background-color: var(--bg-primary);
   transition: all var(--duration-fast) var(--ease-default);
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .option {
+    padding: 8px 14px;
+    font-size: var(--text-body-sm);
+  }
 }
 
 .option:hover {

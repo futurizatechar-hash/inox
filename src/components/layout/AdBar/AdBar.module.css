@@ -5,14 +5,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: var(--space-2);
+  padding: var(--space-1) var(--space-2);
   flex-wrap: wrap;
-  font-size: var(--text-body-xs);
+  font-size: 10px;
   font-weight: var(--font-semibold);
   letter-spacing: var(--tracking-wider);
   text-transform: uppercase;
   position: relative;
   z-index: var(--z-fixed);
+  text-align: center;
+  line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  .adBar {
+    font-size: var(--text-body-xs);
+    padding: var(--space-2);
+  }
 }
 
 .content {

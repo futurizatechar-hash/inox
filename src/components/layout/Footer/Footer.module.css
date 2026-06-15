@@ -1,20 +1,33 @@
+/* ═══════════════════════════════════════════════
+   Footer — Mobile-first responsive design
+   ═══════════════════════════════════════════════ */
+
 .footer {
   background-color: var(--bg-inverse);
   border-top: 3px solid var(--color-yellow-400);
   color: var(--text-inverse);
-  padding: var(--space-12) 0 var(--space-6);
+  padding: var(--space-8) 0 var(--space-6);
   margin-top: auto;
 }
 
+@media (min-width: 768px) {
+  .footer {
+    padding: var(--space-12) 0 var(--space-6);
+  }
+}
+
+/* ── Grid ── */
 .grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
 }
 
 @media (min-width: 768px) {
   .grid {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-8);
   }
 }
 
@@ -25,36 +38,55 @@
   }
 }
 
+/* ── Brand & Social ── */
 .brand {
   display: flex;
   flex-direction: column;
-  gap: var(--space-4);
+  gap: var(--space-3);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  margin-bottom: var(--space-2);
+}
+
+@media (min-width: 768px) {
+  .brand {
+    gap: var(--space-4);
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-bottom: 0;
+  }
 }
 
 .logoImg {
-  height: 28px;
+  height: 24px;
   width: auto;
   display: block;
   object-fit: contain;
   object-position: left center;
 }
 
+@media (min-width: 768px) {
+  .logoImg {
+    height: 28px;
+  }
+}
+
 .description {
   color: var(--color-gray-400);
-  font-size: var(--text-body-sm);
+  font-size: 13px;
   max-width: 320px;
-  line-height: var(--leading-normal);
+  line-height: 1.55;
 }
 
 .socials {
   display: flex;
   gap: 10px;
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 .socialBtn {
-  width: 36px;
-  height: 36px;
+  width: 34px;
+  height: 34px;
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.08);
   background-color: rgba(255, 255, 255, 0.02);
@@ -63,6 +95,13 @@
   justify-content: center;
   color: var(--color-gray-400);
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 768px) {
+  .socialBtn {
+    width: 36px;
+    height: 36px;
+  }
 }
 
 .socialBtn:hover {
@@ -75,20 +114,21 @@
 
 /* ── Columns (Mobile accordion) ── */
 .columnDetails {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .columnSummary {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--space-4) 0;
+  padding: var(--space-3) 0;
   cursor: pointer;
   list-style: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .columnSummary h3 {
-  font-size: var(--text-body-xs);
+  font-size: 11px;
   font-weight: var(--font-bold);
   letter-spacing: var(--tracking-wider);
   text-transform: uppercase;
@@ -97,12 +137,13 @@
 }
 
 .chevron {
-  width: 8px;
-  height: 8px;
-  border-right: 2px solid var(--color-gray-400);
-  border-bottom: 2px solid var(--color-gray-400);
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid var(--color-gray-400);
+  border-bottom: 1.5px solid var(--color-gray-400);
   transform: rotate(45deg);
   transition: transform var(--duration-fast);
+  flex-shrink: 0;
 }
 
 .columnDetails.open .chevron {
@@ -112,8 +153,8 @@
 .links {
   display: none;
   flex-direction: column;
-  gap: var(--space-3);
-  padding-bottom: var(--space-4);
+  gap: var(--space-2);
+  padding-bottom: var(--space-3);
 }
 
 .columnDetails.open .links {
@@ -122,9 +163,10 @@
 
 .link {
   color: var(--color-gray-400);
-  font-size: var(--text-body-sm);
+  font-size: 13px;
   display: inline-block;
   transition: all 0.2s var(--ease-default);
+  padding: 2px 0;
 }
 
 .link:hover {
@@ -136,20 +178,25 @@
   .columnDetails {
     border-bottom: none;
   }
-  
+
   .columnSummary {
     padding: 0;
     margin-bottom: var(--space-5);
     cursor: default;
     pointer-events: none;
   }
-  
+
+  .columnSummary h3 {
+    font-size: var(--text-body-xs);
+  }
+
   .chevron {
     display: none;
   }
-  
+
   .links {
     display: flex !important;
+    gap: var(--space-3);
   }
 }
 
@@ -157,24 +204,35 @@
 .contactAndNewsletter {
   display: flex;
   flex-direction: column;
-  gap: var(--space-4);
-  margin-top: var(--space-2);
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+  padding-top: var(--space-4);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 @media (min-width: 768px) {
   .contactAndNewsletter {
     margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+    gap: var(--space-4);
   }
 }
 
 .columnSummaryStatic h3 {
-  font-size: var(--text-body-xs);
+  font-size: 11px;
   font-weight: var(--font-bold);
   letter-spacing: var(--tracking-wider);
   text-transform: uppercase;
   color: var(--text-inverse);
-  margin: 0;
-  margin-bottom: var(--space-5);
+  margin: 0 0 var(--space-3);
+}
+
+@media (min-width: 768px) {
+  .columnSummaryStatic h3 {
+    font-size: var(--text-body-xs);
+    margin-bottom: var(--space-5);
+  }
 }
 
 .contactDetails {
@@ -187,12 +245,13 @@
   display: flex;
   align-items: center;
   gap: var(--space-2);
-  font-size: var(--text-body-sm);
+  font-size: 13px;
   color: var(--color-gray-400);
 }
 
 .contactIcon {
   color: var(--color-yellow-400);
+  flex-shrink: 0;
 }
 
 .contactText {
@@ -203,15 +262,16 @@ a.contactText:hover {
   color: var(--color-white);
 }
 
+/* ── Newsletter ── */
 .newsletterWrapper {
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
-  margin-top: var(--space-2);
+  margin-top: var(--space-1);
 }
 
 .newsletterText {
-  font-size: var(--text-body-xs);
+  font-size: 12px;
   color: var(--color-gray-400);
   line-height: 1.4;
   margin: 0;
@@ -221,20 +281,30 @@ a.contactText:hover {
   display: flex;
   position: relative;
   width: 100%;
-  max-width: 300px;
+  max-width: 100%;
   margin-top: 4px;
+}
+
+@media (min-width: 768px) {
+  .newsletterForm {
+    max-width: 300px;
+  }
 }
 
 .newsletterInput {
   width: 100%;
-  padding: 8px 40px 8px 12px;
+  padding: 10px 44px 10px 12px;
   font-size: 13px;
   color: var(--color-white);
-  background-color: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: var(--radius-md);
   outline: none;
   transition: border-color 0.2s;
+}
+
+.newsletterInput::placeholder {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .newsletterInput:focus {
@@ -246,7 +316,7 @@ a.contactText:hover {
   right: 4px;
   top: 4px;
   bottom: 4px;
-  width: 32px;
+  width: 34px;
   background-color: var(--color-yellow-400);
   color: var(--color-gray-950);
   border: none;
@@ -264,19 +334,24 @@ a.contactText:hover {
 
 /* ── Bottom Section ── */
 .bottom {
-  margin-top: var(--space-10);
-  padding-top: var(--space-6);
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: var(--space-6);
+  padding-top: var(--space-5);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
   align-items: center;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   .bottom {
+    margin-top: var(--space-10);
+    padding-top: var(--space-6);
     flex-direction: row;
     justify-content: space-between;
+    text-align: left;
+    gap: var(--space-4);
   }
 }
 
@@ -297,19 +372,20 @@ a.contactText:hover {
 
 .copyright {
   color: var(--color-gray-500);
-  font-size: var(--text-body-xs);
+  font-size: 11px;
   margin: 0;
 }
 
 .legal {
   display: flex;
-  gap: var(--space-4);
+  gap: var(--space-3);
 }
 
 .legalLink {
   color: var(--color-gray-500);
-  font-size: var(--text-body-xs);
+  font-size: 11px;
   transition: color 0.2s;
+  padding: 2px 0;
 }
 
 .legalLink:hover {
@@ -320,6 +396,19 @@ a.contactText:hover {
   display: flex;
   gap: var(--space-4);
   align-items: center;
+  padding-top: var(--space-3);
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+  width: 100%;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .trustSeals {
+    padding-top: 0;
+    border-top: none;
+    width: auto;
+    justify-content: flex-end;
+  }
 }
 
 .sealItem {

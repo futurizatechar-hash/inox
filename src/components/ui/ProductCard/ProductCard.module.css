@@ -29,8 +29,14 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
-  padding: var(--space-3) var(--space-4);
+  padding: var(--space-2);
   transition: transform var(--duration-slow) var(--ease-out);
+}
+
+@media (min-width: 768px) {
+  .image {
+    padding: var(--space-3) var(--space-4);
+  }
 }
 
 .card:hover .image {
@@ -39,10 +45,10 @@
 
 .wishlistBtn {
   position: absolute;
-  top: 12px;
-  right: 12px;
-  width: 34px;
-  height: 34px;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
   background: var(--color-white);
   border: 1px solid var(--color-gray-100);
   border-radius: var(--radius-full);
@@ -53,6 +59,15 @@
   transition: all var(--duration-fast) var(--ease-default);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .wishlistBtn {
+    top: 12px;
+    right: 12px;
+    width: 34px;
+    height: 34px;
+  }
 }
 
 .wishlistBtn:hover {
@@ -73,21 +88,36 @@
 /* Badges */
 .badges {
   position: absolute;
-  top: 12px;
-  left: 12px;
+  top: 8px;
+  left: 8px;
   display: flex;
   flex-direction: column;
-  gap: var(--space-1);
+  gap: 2px;
   z-index: 2;
 }
 
+@media (min-width: 768px) {
+  .badges {
+    top: 12px;
+    left: 12px;
+    gap: var(--space-1);
+  }
+}
+
 .badge {
-  font-size: 10px;
+  font-size: 9px;
   font-weight: var(--font-bold);
-  padding: 2px 6px;
+  padding: 2px 5px;
   border-radius: var(--radius-sm);
   text-transform: uppercase;
   letter-spacing: 0.5px;
+}
+
+@media (min-width: 768px) {
+  .badge {
+    font-size: 10px;
+    padding: 2px 6px;
+  }
 }
 
 .badge_success {
@@ -114,11 +144,19 @@
 }
 
 .gridCard .contentSection {
-  padding: var(--space-3);
+  padding: var(--space-2);
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  gap: var(--space-1);
+  gap: 2px;
+  min-width: 0;
+}
+
+@media (min-width: 768px) {
+  .gridCard .contentSection {
+    padding: var(--space-3);
+    gap: var(--space-1);
+  }
 }
 
 /* LIST LAYOUT STYLE */
@@ -130,9 +168,9 @@
 }
 
 .listCard .imageSection {
-  width: 130px;
-  min-width: 130px;
-  max-width: 130px;
+  width: 110px;
+  min-width: 110px;
+  max-width: 110px;
   border-right: 1px solid var(--color-gray-100);
   display: flex;
   align-items: center;
@@ -140,34 +178,31 @@
 }
 
 .listCard .image {
-  height: 130px;
+  height: 110px;
   padding: var(--space-2);
 }
 
 .listCard .contentSection {
-  padding: var(--space-3) var(--space-4);
+  padding: var(--space-2) var(--space-3);
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-grow: 1;
   gap: 3px;
+  min-width: 0;
 }
 
-/* Responsive adjustments for mobile list view */
-@media (max-width: 640px) {
+@media (min-width: 768px) {
   .listCard .imageSection {
-    width: 110px;
-    min-width: 110px;
-    max-width: 110px;
+    width: 130px;
+    min-width: 130px;
+    max-width: 130px;
   }
   .listCard .image {
-    height: 110px;
+    height: 130px;
   }
   .listCard .contentSection {
-    padding: var(--space-2) var(--space-3);
-  }
-  .price {
-    font-size: 18px !important;
+    padding: var(--space-3) var(--space-4);
   }
 }
 
@@ -175,19 +210,25 @@
 .brandRow {
   display: flex;
   align-items: center;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 }
 
 .brand {
-  font-size: 11px;
+  font-size: 10px;
   font-weight: var(--font-semibold);
   color: var(--color-gray-400);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
+@media (min-width: 768px) {
+  .brand {
+    font-size: 11px;
+  }
+}
+
 .title {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: var(--font-regular);
   color: var(--color-gray-700);
   line-height: 1.3;
@@ -197,7 +238,16 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  min-height: 34px;
+  min-height: 31px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 13px;
+    min-height: 34px;
+  }
 }
 
 .listCard .title {
@@ -208,24 +258,40 @@
 .ratingContainer {
   display: flex;
   align-items: center;
-  gap: 4px;
-  margin-bottom: var(--space-1);
+  gap: 3px;
+  margin-bottom: 2px;
 }
 
 .ratingStar {
   color: #ffda00;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .ratingScore {
-  font-size: 11px;
+  font-size: 10px;
   font-weight: var(--font-bold);
   color: #3483fa;
 }
 
 .soldCount {
-  font-size: 11px;
+  font-size: 10px;
   color: var(--color-gray-400);
+}
+
+@media (min-width: 768px) {
+  .ratingStar {
+    font-size: 13px;
+  }
+  .ratingScore {
+    font-size: 11px;
+  }
+  .soldCount {
+    font-size: 11px;
+  }
+  .ratingContainer {
+    gap: 4px;
+    margin-bottom: var(--space-1);
+  }
 }
 
 /* Prices */
@@ -236,35 +302,54 @@
 }
 
 .comparePrice {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--color-gray-400);
   text-decoration: line-through;
   line-height: 1;
 }
 
+@media (min-width: 768px) {
+  .comparePrice {
+    font-size: 12px;
+  }
+}
+
 .currentPriceRow {
   display: flex;
   align-items: center;
-  gap: var(--space-2);
+  gap: var(--space-1);
+  flex-wrap: wrap;
 }
 
 .price {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--color-gray-950);
   line-height: 1.1;
 }
 
+@media (min-width: 768px) {
+  .price {
+    font-size: 20px;
+  }
+}
+
 .discountBadge {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 500;
   color: #00a650;
 }
 
 /* Installments */
 .installments {
-  font-size: 12px;
+  font-size: 11px;
   line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .installments {
+    font-size: 12px;
+  }
 }
 
 .installmentText {
@@ -283,14 +368,20 @@
 .shippingContainer {
   display: flex;
   align-items: center;
-  gap: var(--space-2);
+  gap: var(--space-1);
   margin-top: 2px;
 }
 
 .freeShipping {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: var(--font-semibold);
   color: #00a650;
+}
+
+@media (min-width: 768px) {
+  .freeShipping {
+    font-size: 12px;
+  }
 }
 
 .fullShipping {
@@ -301,12 +392,12 @@
 
 .thunderIcon {
   color: #00a650;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: var(--font-bold);
 }
 
 .fullText {
-  font-size: 11px;
+  font-size: 10px;
   font-style: italic;
   font-weight: 900;
   color: #00a650;
