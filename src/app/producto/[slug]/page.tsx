@@ -1,5 +1,7 @@
 'use client';
 
+export const runtime = 'edge';
+
 import React, { useState, use, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import Link from 'next/link';
