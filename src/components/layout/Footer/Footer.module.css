@@ -1,0 +1,335 @@
+.footer {
+  background-color: var(--bg-inverse);
+  border-top: 3px solid var(--color-yellow-400);
+  color: var(--text-inverse);
+  padding: var(--space-12) 0 var(--space-6);
+  margin-top: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-8);
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: 1.8fr 1fr 1fr 1.8fr;
+    gap: var(--space-10);
+  }
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.logoImg {
+  height: 28px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.description {
+  color: var(--color-gray-400);
+  font-size: var(--text-body-sm);
+  max-width: 320px;
+  line-height: var(--leading-normal);
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.socialBtn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.02);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gray-400);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socialBtn:hover {
+  background-color: var(--color-yellow-400);
+  color: var(--color-gray-950);
+  border-color: var(--color-yellow-400);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(248, 220, 19, 0.25);
+}
+
+/* ── Columns (Mobile accordion) ── */
+.columnDetails {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.columnSummary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-4) 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+.columnSummary h3 {
+  font-size: var(--text-body-xs);
+  font-weight: var(--font-bold);
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color: var(--text-inverse);
+  margin: 0;
+}
+
+.chevron {
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--color-gray-400);
+  border-bottom: 2px solid var(--color-gray-400);
+  transform: rotate(45deg);
+  transition: transform var(--duration-fast);
+}
+
+.columnDetails.open .chevron {
+  transform: rotate(-135deg);
+}
+
+.links {
+  display: none;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding-bottom: var(--space-4);
+}
+
+.columnDetails.open .links {
+  display: flex;
+}
+
+.link {
+  color: var(--color-gray-400);
+  font-size: var(--text-body-sm);
+  display: inline-block;
+  transition: all 0.2s var(--ease-default);
+}
+
+.link:hover {
+  color: var(--color-white);
+  transform: translateX(4px);
+}
+
+@media (min-width: 768px) {
+  .columnDetails {
+    border-bottom: none;
+  }
+  
+  .columnSummary {
+    padding: 0;
+    margin-bottom: var(--space-5);
+    cursor: default;
+    pointer-events: none;
+  }
+  
+  .chevron {
+    display: none;
+  }
+  
+  .links {
+    display: flex !important;
+  }
+}
+
+/* ── Contact & Newsletter Column ── */
+.contactAndNewsletter {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-top: var(--space-2);
+}
+
+@media (min-width: 768px) {
+  .contactAndNewsletter {
+    margin-top: 0;
+  }
+}
+
+.columnSummaryStatic h3 {
+  font-size: var(--text-body-xs);
+  font-weight: var(--font-bold);
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color: var(--text-inverse);
+  margin: 0;
+  margin-bottom: var(--space-5);
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-body-sm);
+  color: var(--color-gray-400);
+}
+
+.contactIcon {
+  color: var(--color-yellow-400);
+}
+
+.contactText {
+  transition: color 0.2s;
+}
+
+a.contactText:hover {
+  color: var(--color-white);
+}
+
+.newsletterWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+}
+
+.newsletterText {
+  font-size: var(--text-body-xs);
+  color: var(--color-gray-400);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.newsletterForm {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 4px;
+}
+
+.newsletterInput {
+  width: 100%;
+  padding: 8px 40px 8px 12px;
+  font-size: 13px;
+  color: var(--color-white);
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-md);
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.newsletterInput:focus {
+  border-color: var(--color-yellow-400);
+}
+
+.newsletterBtn {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  bottom: 4px;
+  width: 32px;
+  background-color: var(--color-yellow-400);
+  color: var(--color-gray-950);
+  border: none;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.newsletterBtn:hover {
+  background-color: var(--color-yellow-500);
+}
+
+/* ── Bottom Section ── */
+.bottom {
+  margin-top: var(--space-10);
+  padding-top: var(--space-6);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.copyrightWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+@media (min-width: 768px) {
+  .copyrightWrapper {
+    flex-direction: row;
+    gap: var(--space-6);
+    align-items: center;
+  }
+}
+
+.copyright {
+  color: var(--color-gray-500);
+  font-size: var(--text-body-xs);
+  margin: 0;
+}
+
+.legal {
+  display: flex;
+  gap: var(--space-4);
+}
+
+.legalLink {
+  color: var(--color-gray-500);
+  font-size: var(--text-body-xs);
+  transition: color 0.2s;
+}
+
+.legalLink:hover {
+  color: var(--color-white);
+}
+
+.trustSeals {
+  display: flex;
+  gap: var(--space-4);
+  align-items: center;
+}
+
+.sealItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--color-gray-400);
+}
+
+.sealIcon {
+  color: var(--color-yellow-400);
+}

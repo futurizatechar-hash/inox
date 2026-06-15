@@ -1,0 +1,374 @@
+.headerWrapper {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-sticky);
+  background-color: var(--bg-inverse);
+  border-bottom: 1px solid var(--border-default);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.headerMain {
+  height: var(--header-height-mobile);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+@media (min-width: 1024px) {
+  .headerMain {
+    height: var(--header-height);
+    gap: var(--space-6);
+  }
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+@media (min-width: 1024px) {
+  .leftSection {
+    gap: var(--space-4);
+  }
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .logoImg {
+    height: 26px;
+  }
+}
+
+.searchContainer {
+  flex: 1;
+  max-width: 480px;
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .searchContainer {
+    display: block;
+  }
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+@media (min-width: 1024px) {
+  .actions {
+    gap: var(--space-4);
+  }
+}
+
+.iconButton {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+  color: var(--text-inverse);
+  transition: all var(--duration-fast) var(--ease-default);
+}
+
+.iconButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-brand);
+}
+
+.cartBadge {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: var(--bg-brand);
+  color: var(--text-primary);
+  font-size: 10px;
+  font-weight: var(--font-bold);
+  width: 16px;
+  height: 16px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.mobileMenuBtn {
+  display: flex;
+}
+
+@media (min-width: 1024px) {
+  .mobileMenuBtn {
+    display: none;
+  }
+}
+
+/* Nav Container Inline */
+.navContainer {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-8);
+    flex: 1;
+    margin: 0 var(--space-8);
+  }
+}
+
+.navLink {
+  font-size: var(--text-body-sm);
+  font-weight: var(--font-semibold);
+  color: var(--text-inverse); /* We want white/inverse text on the black header */
+  letter-spacing: var(--tracking-wide);
+  transition: color var(--duration-fast) var(--ease-default);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.navLink:hover {
+  color: var(--color-yellow-400); /* Beautiful yellow brand color on hover */
+}
+
+/* Nav Dropdown Desktop container */
+.navDropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownTrigger {
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.chevronIcon {
+  transition: transform var(--duration-normal) var(--ease-default);
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(12px);
+  background-color: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--duration-normal) var(--ease-default);
+  box-shadow: var(--shadow-xl), 0 10px 40px rgba(0, 0, 0, 0.8);
+  z-index: var(--z-dropdown);
+}
+
+.navDropdown:hover .dropdownMenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(4px);
+}
+
+.navDropdown:hover .chevronIcon {
+  transform: rotate(180deg);
+}
+
+.dropdownItem {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  transition: background-color var(--duration-fast) var(--ease-default);
+}
+
+.dropdownItem:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.itemTitle {
+  font-size: var(--text-body-sm);
+  font-weight: var(--font-bold);
+  color: var(--color-yellow-400);
+}
+
+.itemDesc {
+  font-size: var(--text-body-xs);
+  color: var(--text-tertiary);
+  margin-top: 2px;
+}
+
+/* Mobile Drawer Styles */
+.mobileDrawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: var(--z-modal);
+  visibility: hidden;
+  transition: visibility var(--duration-normal) var(--ease-default);
+}
+
+.mobileDrawerOpen {
+  visibility: visible;
+}
+
+.drawerOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  transition: opacity var(--duration-normal) var(--ease-default);
+}
+
+.mobileDrawerOpen .drawerOverlay {
+  opacity: 1;
+}
+
+.drawerContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  max-width: 300px;
+  height: 100%;
+  background-color: #0c0c0c;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-100%);
+  transition: transform var(--duration-normal) var(--ease-default);
+  padding: var(--space-6) var(--space-4);
+  box-shadow: 10px 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.mobileDrawerOpen .drawerContent {
+  transform: translateX(0);
+}
+
+.drawerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: var(--space-4);
+}
+
+.drawerTitle {
+  font-size: var(--text-heading-md);
+  font-weight: var(--font-bold);
+  color: var(--text-inverse);
+  letter-spacing: var(--tracking-wide);
+}
+
+.drawerNav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.drawerLink {
+  font-size: var(--text-body-md);
+  font-weight: var(--font-semibold);
+  color: var(--text-inverse);
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  transition: color var(--duration-fast) var(--ease-default);
+  display: block;
+  text-align: left;
+}
+
+.drawerLink:hover {
+  color: var(--color-yellow-400);
+}
+
+.drawerCollapsible {
+  display: flex;
+  flex-direction: column;
+}
+
+.drawerCollapsibleTrigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: var(--text-body-md);
+  font-weight: var(--font-semibold);
+  color: var(--text-inverse);
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  transition: color var(--duration-fast) var(--ease-default);
+  cursor: pointer;
+}
+
+.drawerCollapsibleTrigger:hover {
+  color: var(--color-yellow-400);
+}
+
+.drawerChevron {
+  transition: transform var(--duration-normal) var(--ease-default);
+}
+
+.chevronRotated {
+  transform: rotate(180deg);
+}
+
+.drawerSubmenu {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--duration-normal) var(--ease-default), margin var(--duration-normal) var(--ease-default);
+  padding-left: var(--space-4);
+}
+
+.submenuOpen {
+  max-height: 200px;
+  margin-top: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.drawerSubLink {
+  font-size: var(--text-body-sm);
+  color: var(--text-tertiary);
+  padding: var(--space-1) 0;
+  transition: color var(--duration-fast) var(--ease-default);
+  text-align: left;
+}
+
+.drawerSubLink:hover {
+  color: var(--color-yellow-400);
+}
+

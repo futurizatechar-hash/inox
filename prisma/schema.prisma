@@ -1,0 +1,515 @@
+// ═══════════════════════════════════════════════════════
+//  MASECOR ECOSYSTEM — Prisma Schema (Fuente de Verdad)
+// ═══════════════════════════════════════════════════════
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─── USUARIOS Y ROLES ──────────────────────────────────
+model User {
+  id            String       @id @default(cuid())
+  email         String       @unique
+  name          String?
+  phone         String?
+  supabaseId    String       @unique
+  role          UserRole     @default(CLIENTE)
+  type          CustomerType @default(RETAIL)
+  channelSource SalesChannel @default(INOX_ECOMMERCE)
+
+  b2bProfile B2BProfile?
+  employee   Employee?
+  addresses  Address[]
+  orders     Order[]
+  quotes     Quote[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([email])
+  @@index([supabaseId])
+  @@index([role])
+}
+
+model B2BProfile {
+  id             String     @id @default(cuid())
+  userId         String     @unique
+  user           User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  businessName   String
+  cuit           String     @unique
+  accountBalance Decimal    @default(0) @db.Decimal(12, 2)
+  creditLimit    Decimal    @default(0) @db.Decimal(12, 2)
+  priceListId    String?
+  priceList      PriceList? @relation(fields: [priceListId], references: [id])
+  createdAt      DateTime   @default(now())
+  updatedAt      DateTime   @updatedAt
+}
+
+model Address {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  label     String?
+  street    String
+  number    String
+  floor     String?
+  apartment String?
+  city      String
+  province  String
+  zipCode   String
+  phone     String?
+  isDefault Boolean  @default(false)
+  orders    Order[]
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+}
+
+// ─── CATÁLOGO E INVENTARIO ─────────────────────────────
+model Category {
+  id          String     @id @default(cuid())
+  name        String
+  slug        String     @unique
+  description String?
+  image       String?
+  parentId    String?
+  parent      Category?  @relation("CategoryTree", fields: [parentId], references: [id])
+  children    Category[] @relation("CategoryTree")
+  products    Product[]
+  sortOrder   Int        @default(0)
+  isActive    Boolean    @default(true)
+
+  @@index([slug])
+  @@index([parentId])
+}
+
+model Product {
+  id          String           @id @default(cuid())
+  name        String
+  slug        String           @unique
+  description String
+  shortDesc   String?
+  brand       String           @default("INOX")
+  categoryId  String
+  category    Category         @relation(fields: [categoryId], references: [id])
+  variants    ProductVariant[]
+  images      ProductImage[]
+  features    Json?
+  weight      Decimal?         @db.Decimal(8, 2)
+  dimensions  Json?
+  isActive    Boolean          @default(true)
+  isFeatured  Boolean          @default(false)
+  seoTitle    String?
+  seoDesc     String?
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+
+  @@index([slug])
+  @@index([categoryId])
+  @@index([isActive, isFeatured])
+}
+
+model ProductVariant {
+  id           String   @id @default(cuid())
+  productId    String
+  product      Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  name         String
+  sku          String   @unique
+  price        Decimal  @db.Decimal(12, 2) // Precio Retail
+  comparePrice Decimal? @db.Decimal(12, 2)
+  costPrice    Decimal? @db.Decimal(12, 2) // Costo de producción/compra
+  stock        Int      @default(0)
+  minStock     Int      @default(5)
+  isActive     Boolean  @default(true)
+
+  orderItems     OrderItem[]
+  stockMovements StockMovement[]
+  meliListings   MeliListing[]
+
+  @@index([productId])
+  @@index([sku])
+}
+
+model ProductImage {
+  id        String  @id @default(cuid())
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  url       String
+  alt       String?
+  sortOrder Int     @default(0)
+
+  @@index([productId])
+}
+
+model PriceList {
+  id          String       @id @default(cuid())
+  name        String
+  discountPct Decimal      @default(0) @db.Decimal(5, 2) // Ej: 15.00 para 15% off
+  isActive    Boolean      @default(true)
+  b2bProfiles B2BProfile[]
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+}
+
+model StockMovement {
+  id          String            @id @default(cuid())
+  variantId   String
+  variant     ProductVariant    @relation(fields: [variantId], references: [id])
+  type        StockMovementType
+  quantity    Int // Positivo (ingreso) o Negativo (egreso)
+  referenceId String? // OrderId, ProductionOrderId, etc
+  notes       String?
+  userId      String? // Quien registró el movimiento (si es manual)
+  createdAt   DateTime          @default(now())
+
+  @@index([variantId])
+  @@index([type])
+}
+
+// ─── PEDIDOS Y VENTAS ──────────────────────────────────
+model Order {
+  id          String       @id @default(cuid())
+  orderNumber String       @unique
+  externalId  String?      @unique // ID de Mercado Libre
+  channel     SalesChannel @default(INOX_ECOMMERCE)
+  userId      String
+  user        User         @relation(fields: [userId], references: [id])
+  items       OrderItem[]
+  addressId   String?
+  address     Address?     @relation(fields: [addressId], references: [id])
+
+  subtotal     Decimal @db.Decimal(12, 2)
+  shippingCost Decimal @default(0) @db.Decimal(12, 2)
+  discount     Decimal @default(0) @db.Decimal(12, 2)
+  total        Decimal @db.Decimal(12, 2)
+
+  status         OrderStatus   @default(PENDING)
+  paymentMethod  PaymentMethod
+  paymentStatus  PaymentStatus @default(PENDING)
+  mpPaymentId    String?
+  mpPreferenceId String?
+  transferProof  String?
+
+  shippingMethod   ShippingMethod?
+  shippingCarrier  String?
+  trackingNumber   String?
+  trackingUrl      String?
+  shippingLabelUrl String?
+
+  notes          String?
+  invoice        Invoice?
+  returnRequests ReturnRequest[]
+
+  expiresAt DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@index([userId])
+  @@index([orderNumber])
+  @@index([channel])
+  @@index([status])
+  @@index([paymentStatus])
+  @@index([createdAt])
+}
+
+model OrderItem {
+  id          String         @id @default(cuid())
+  orderId     String
+  order       Order          @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  variantId   String
+  variant     ProductVariant @relation(fields: [variantId], references: [id])
+  productName String
+  variantName String
+  quantity    Int
+  unitPrice   Decimal        @db.Decimal(12, 2)
+
+  @@index([orderId])
+}
+
+model Quote {
+  id          String      @id @default(cuid())
+  quoteNumber String      @unique
+  userId      String
+  user        User        @relation(fields: [userId], references: [id])
+  total       Decimal     @db.Decimal(12, 2)
+  validUntil  DateTime
+  status      QuoteStatus @default(DRAFT)
+  items       Json // Array de items cotizados
+  notes       String?
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+}
+
+model ReturnRequest {
+  id         String       @id @default(cuid())
+  orderId    String
+  order      Order        @relation(fields: [orderId], references: [id])
+  reason     String
+  status     ReturnStatus @default(PENDING)
+  images     String[]
+  resolution String?
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+}
+
+// ─── FACTURACIÓN Y FINANZAS ────────────────────────────
+model Invoice {
+  id            String   @id @default(cuid())
+  orderId       String   @unique
+  order         Order    @relation(fields: [orderId], references: [id])
+  invoiceType   String
+  invoiceNumber String
+  pointOfSale   Int
+  cae           String
+  caeExpiration DateTime
+  totalAmount   Decimal  @db.Decimal(12, 2)
+  pdfUrl        String?
+  createdAt     DateTime @default(now())
+
+  @@index([invoiceNumber])
+}
+
+model BankAccount {
+  id          String  @id @default(cuid())
+  bankName    String
+  accountType String
+  cbu         String
+  alias       String?
+  balance     Decimal @default(0) @db.Decimal(12, 2)
+  isActive    Boolean @default(true)
+}
+
+model FinancialTransaction {
+  id          String   @id @default(cuid())
+  amount      Decimal  @db.Decimal(12, 2)
+  type        String // INCOME, EXPENSE
+  category    String
+  referenceId String? // OrderId, PurchaseOrderId, etc
+  date        DateTime @default(now())
+  notes       String?
+}
+
+// ─── RRHH Y EMPLEADOS ──────────────────────────────────
+model Employee {
+  id         String   @id @default(cuid())
+  userId     String   @unique
+  user       User     @relation(fields: [userId], references: [id])
+  position   String
+  department String
+  salary     Decimal? @db.Decimal(12, 2)
+  hireDate   DateTime
+  isActive   Boolean  @default(true)
+}
+
+model Payroll {
+  id          String    @id @default(cuid())
+  employeeId  String
+  period      String // ej: "2026-05"
+  totalAmount Decimal   @db.Decimal(12, 2)
+  status      String // PENDING, PAID
+  paidAt      DateTime?
+}
+
+// ─── COMPRAS Y PROVEEDORES ─────────────────────────────
+model Supplier {
+  id       String  @id @default(cuid())
+  name     String
+  cuit     String  @unique
+  email    String?
+  phone    String?
+  isActive Boolean @default(true)
+}
+
+model PurchaseOrder {
+  id         String   @id @default(cuid())
+  supplierId String
+  status     String // PENDING, RECEIVED, CANCELLED
+  total      Decimal  @db.Decimal(12, 2)
+  createdAt  DateTime @default(now())
+}
+
+model RawMaterial {
+  id       String  @id @default(cuid())
+  name     String
+  sku      String  @unique
+  unit     String // KG, UNIDAD, METRO
+  stock    Decimal @default(0) @db.Decimal(10, 2)
+  minStock Decimal @default(0) @db.Decimal(10, 2)
+}
+
+model RawMaterialMovement {
+  id          String   @id @default(cuid())
+  materialId  String
+  quantity    Decimal  @db.Decimal(10, 2)
+  type        String // IN, OUT
+  referenceId String?
+  createdAt   DateTime @default(now())
+}
+
+// ─── FÁBRICA Y PRODUCCIÓN ──────────────────────────────
+model ProductionOrder {
+  id        String    @id @default(cuid())
+  variantId String
+  quantity  Int
+  status    String // PLANNED, IN_PROGRESS, COMPLETED
+  startDate DateTime?
+  endDate   DateTime?
+  createdAt DateTime  @default(now())
+}
+
+model BillOfMaterials {
+  id        String @id @default(cuid())
+  variantId String @unique
+  materials Json // Array de { rawMaterialId, quantity }
+}
+
+// ─── INTEGRACIÓN MERCADO LIBRE ─────────────────────────
+model MeliListing {
+  id         String         @id @default(cuid())
+  variantId  String
+  variant    ProductVariant @relation(fields: [variantId], references: [id])
+  meliItemId String         @unique
+  price      Decimal        @db.Decimal(12, 2)
+  status     String // active, paused, closed
+  lastSync   DateTime       @default(now())
+}
+
+// ─── INTELIGENCIA ARTIFICIAL (AI HUB) ──────────────────
+model AiAgent {
+  id           String  @id @default(cuid())
+  name         String
+  role         String // SALES, SUPPORT, ADMIN, etc
+  model        String // claude-3-haiku, gpt-4o
+  systemPrompt String  @db.Text
+  isActive     Boolean @default(true)
+}
+
+model AiConversation {
+  id        String   @id @default(cuid())
+  agentId   String
+  userId    String?
+  channel   String // WHATSAPP, WEB, TELEGRAM
+  status    String // ACTIVE, CLOSED
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model AiMessage {
+  id             String   @id @default(cuid())
+  conversationId String
+  role           String // user, assistant, system
+  content        String   @db.Text
+  createdAt      DateTime @default(now())
+}
+
+model AiAction {
+  id         String   @id @default(cuid())
+  agentId    String
+  actionType String // UPDATE_STOCK, CREATE_ORDER, etc
+  payload    Json
+  status     String // PENDING_APPROVAL, EXECUTED, REJECTED
+  approvedBy String? // UserId
+  createdAt  DateTime @default(now())
+}
+
+// ─── AUDIT LOG ─────────────────────────────────────────
+model AuditLog {
+  id        String   @id @default(cuid())
+  action    String
+  entity    String
+  entityId  String?
+  userId    String?
+  ip        String?
+  metadata  Json?
+  createdAt DateTime @default(now())
+
+  @@index([action])
+  @@index([entity, entityId])
+  @@index([createdAt])
+}
+
+// ─── ENUMS ─────────────────────────────────────────────
+enum UserRole {
+  SUPER_ADMIN
+  ADMIN
+  VENTAS
+  ALMACEN
+  FABRICA
+  FINANZAS
+  GERENCIA
+  CLIENTE
+}
+
+enum SalesChannel {
+  INOX_ECOMMERCE
+  INOX_MELI
+  MASECOR_MAYORISTA
+  MASECOR_POS
+}
+
+enum CustomerType {
+  RETAIL
+  WHOLESALE
+}
+
+enum StockMovementType {
+  SALE
+  PRODUCTION_IN
+  MANUAL_ADJUSTMENT
+  RETURN
+  PURCHASE_IN
+}
+
+enum QuoteStatus {
+  DRAFT
+  SENT
+  ACCEPTED
+  REJECTED
+  EXPIRED
+}
+
+enum ReturnStatus {
+  PENDING
+  APPROVED
+  RECEIVED
+  REFUNDED
+  REJECTED
+}
+
+enum OrderStatus {
+  PENDING
+  PENDING_TRANSFER
+  PENDING_VERIFICATION
+  CONFIRMED
+  PROCESSING
+  SHIPPED
+  DELIVERED
+  CANCELLED
+  REFUNDED
+}
+
+enum PaymentStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  IN_PROCESS
+  REFUNDED
+  CANCELLED
+  EXPIRED
+}
+
+enum PaymentMethod {
+  MERCADO_PAGO
+  BANK_TRANSFER
+  CASH_ON_DELIVERY
+}
+
+enum ShippingMethod {
+  STANDARD
+  EXPRESS
+  PICKUP
+}

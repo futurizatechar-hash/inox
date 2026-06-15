@@ -1,0 +1,3 @@
+/**
+ * Validators — Auth schemas (Zod)
+ */

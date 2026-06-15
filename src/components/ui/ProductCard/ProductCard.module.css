@@ -1,0 +1,313 @@
+.card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: all var(--duration-fast) var(--ease-default);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+  border-color: var(--color-gray-300);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Base sections */
+.imageSection {
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+
+.imageLink {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: var(--space-3) var(--space-4);
+  transition: transform var(--duration-slow) var(--ease-out);
+}
+
+.card:hover .image {
+  transform: scale(1.02);
+}
+
+.wishlistBtn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 34px;
+  height: 34px;
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gray-400);
+  transition: all var(--duration-fast) var(--ease-default);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  z-index: 2;
+}
+
+.wishlistBtn:hover {
+  color: var(--color-red-500);
+  border-color: var(--color-red-500);
+  transform: scale(1.05);
+}
+
+.heartIcon {
+  fill: transparent;
+  transition: fill var(--duration-fast);
+}
+
+.wishlistBtn:hover .heartIcon {
+  fill: var(--color-red-500);
+}
+
+/* Badges */
+.badges {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  z-index: 2;
+}
+
+.badge {
+  font-size: 10px;
+  font-weight: var(--font-bold);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge_success {
+  background-color: #e6f7ee;
+  color: #00a650;
+}
+
+.badge_error {
+  background-color: #ffe8e6;
+  color: #f63c3c;
+}
+
+/* GRID LAYOUT STYLE */
+.gridCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.gridCard .imageSection {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-bottom: 1px solid var(--color-gray-100);
+}
+
+.gridCard .contentSection {
+  padding: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: var(--space-1);
+}
+
+/* LIST LAYOUT STYLE */
+.listCard {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: stretch;
+}
+
+.listCard .imageSection {
+  width: 130px;
+  min-width: 130px;
+  max-width: 130px;
+  border-right: 1px solid var(--color-gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listCard .image {
+  height: 130px;
+  padding: var(--space-2);
+}
+
+.listCard .contentSection {
+  padding: var(--space-3) var(--space-4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 3px;
+}
+
+/* Responsive adjustments for mobile list view */
+@media (max-width: 640px) {
+  .listCard .imageSection {
+    width: 110px;
+    min-width: 110px;
+    max-width: 110px;
+  }
+  .listCard .image {
+    height: 110px;
+  }
+  .listCard .contentSection {
+    padding: var(--space-2) var(--space-3);
+  }
+  .price {
+    font-size: 18px !important;
+  }
+}
+
+/* Content details */
+.brandRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.brand {
+  font-size: 11px;
+  font-weight: var(--font-semibold);
+  color: var(--color-gray-400);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: var(--font-regular);
+  color: var(--color-gray-700);
+  line-height: 1.3;
+  margin: 0 0 var(--space-1);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 34px;
+}
+
+.listCard .title {
+  min-height: auto;
+}
+
+/* Rating stars */
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: var(--space-1);
+}
+
+.ratingStar {
+  color: #ffda00;
+  font-size: 13px;
+}
+
+.ratingScore {
+  font-size: 11px;
+  font-weight: var(--font-bold);
+  color: #3483fa;
+}
+
+.soldCount {
+  font-size: 11px;
+  color: var(--color-gray-400);
+}
+
+/* Prices */
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.comparePrice {
+  font-size: 12px;
+  color: var(--color-gray-400);
+  text-decoration: line-through;
+  line-height: 1;
+}
+
+.currentPriceRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-gray-950);
+  line-height: 1.1;
+}
+
+.discountBadge {
+  font-size: 12px;
+  font-weight: 500;
+  color: #00a650;
+}
+
+/* Installments */
+.installments {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.installmentText {
+  color: var(--color-gray-500);
+}
+
+.interestFreeText {
+  color: #00a650;
+}
+
+.accentText {
+  font-weight: var(--font-semibold);
+}
+
+/* Shipping info */
+.shippingContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: 2px;
+}
+
+.freeShipping {
+  font-size: 12px;
+  font-weight: var(--font-semibold);
+  color: #00a650;
+}
+
+.fullShipping {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.thunderIcon {
+  color: #00a650;
+  font-size: 12px;
+  font-weight: var(--font-bold);
+}
+
+.fullText {
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 900;
+  color: #00a650;
+}

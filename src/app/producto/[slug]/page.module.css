@@ -1,0 +1,527 @@
+.layout {
+  padding: var(--space-4) 0 var(--space-10);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.breadcrumbs {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  margin-bottom: var(--space-2);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.breadcrumbs a {
+  color: var(--text-secondary);
+  transition: color var(--duration-fast) var(--ease-default);
+}
+
+.breadcrumbs a:hover {
+  color: var(--text-primary);
+}
+
+.productWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-8);
+}
+
+@media (min-width: 1024px) {
+  .productWrapper {
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: var(--space-8);
+    align-items: start;
+  }
+}
+
+/* ── Galería ── */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.mainImage {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-height: 460px;
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid var(--border-default);
+}
+
+.mainImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: var(--space-6);
+}
+
+.thumbnails {
+  display: flex;
+  gap: var(--space-4);
+  overflow-x: auto;
+  padding-bottom: var(--space-2);
+}
+
+.thumbnail {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid transparent;
+  flex-shrink: 0;
+  transition: all var(--duration-fast) var(--ease-default);
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thumbnail:hover {
+  border-color: var(--border-strong);
+}
+
+.thumbnail.active {
+  border-color: var(--border-focus);
+}
+
+/* ── Info del Producto ── */
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+@media (min-width: 1024px) {
+  .info {
+    max-width: 460px;
+  }
+}
+
+.badges {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.title {
+  font-size: 18px;
+  font-weight: var(--font-bold);
+  line-height: var(--leading-tight);
+  color: var(--text-primary);
+  letter-spacing: var(--tracking-tight);
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 22px;
+  }
+}
+
+.meta {
+  font-size: var(--text-body-sm);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.priceContainer {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-4);
+  margin-top: var(--space-2);
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.comparePrice {
+  font-size: 16px;
+  color: var(--text-tertiary);
+  text-decoration: line-through;
+}
+
+.separator {
+  height: 1px;
+  background-color: var(--border-default);
+  margin: var(--space-1) 0;
+}
+
+/* ── Formulario de Compra ── */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.quantityWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.quantityLabel {
+  font-size: var(--text-body-sm);
+  font-weight: var(--font-semibold);
+  color: var(--text-primary);
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+}
+
+/* Fila horizontal: selector de cantidad + botón añadir */
+.purchaseRow {
+  display: flex;
+  gap: var(--space-2);
+  align-items: stretch;
+}
+
+.purchaseRow > :first-child {
+  /* Selector de cantidad ocupa su tamaño natural */
+  flex-shrink: 0;
+}
+
+.purchaseRow > :last-child {
+  /* Botón se expande para ocupar el espacio restante */
+  flex: 1;
+}
+
+.fullWidthLink {
+  width: 100%;
+  display: block;
+}
+
+.buyBox {
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+}
+
+.trustItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-body-xs);
+  color: var(--text-secondary);
+}
+
+.trustIcon {
+  color: var(--text-brand);
+}
+
+/* ── Descripción del Producto ── */
+.descriptionContainer {
+  margin-top: var(--space-12);
+  padding-top: var(--space-10);
+  border-top: 1px solid var(--border-default);
+}
+
+.descriptionTitle {
+  font-size: var(--text-heading-md);
+  font-weight: var(--font-bold);
+  color: var(--text-primary);
+  margin-bottom: var(--space-8);
+  position: relative;
+  display: inline-block;
+}
+
+.descriptionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 40px;
+  height: 4px;
+  background-color: var(--color-accent);
+  border-radius: var(--radius-full);
+}
+
+.descriptionContent {
+  font-size: var(--text-body-lg);
+  line-height: 1.8;
+  color: var(--text-secondary);
+  max-width: 900px;
+}
+
+.descriptionContent p {
+  margin-bottom: var(--space-4);
+}
+
+.descriptionContent ul, 
+.descriptionContent ol {
+  margin-bottom: var(--space-4);
+  padding-left: var(--space-6);
+}
+
+.descriptionContent li {
+  margin-bottom: var(--space-2);
+}
+
+.descriptionContent strong {
+  color: var(--text-primary);
+  font-weight: var(--font-semibold);
+}
+
+/* Responsive para la sección descripción */
+@media (max-width: 768px) {
+  .descriptionContainer {
+    margin-top: var(--space-8);
+    padding-top: var(--space-6);
+  }
+
+  .descriptionTitle {
+    font-size: var(--text-heading-sm);
+    margin-bottom: var(--space-6);
+  }
+
+  .descriptionContent {
+    font-size: var(--text-body-md);
+    max-width: 100%;
+  }
+}
+
+/* ── Lightbox interactivo y zoom ── */
+.clickable {
+  cursor: pointer;
+  position: relative;
+}
+
+.clickable:hover .zoomOverlay {
+  opacity: 1;
+}
+
+.zoomOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity var(--duration-fast) var(--ease-default);
+  pointer-events: none;
+  color: var(--text-primary);
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn var(--duration-normal) var(--ease-default);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.lightboxClose {
+  position: absolute;
+  top: var(--space-6);
+  right: var(--space-6);
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  padding: var(--space-2);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--duration-fast) var(--ease-default);
+  z-index: 10001;
+}
+
+.lightboxClose:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: scale(1.1);
+  color: var(--text-accent);
+}
+
+.lightboxNav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  padding: var(--space-3);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--duration-fast) var(--ease-default);
+  z-index: 10001;
+}
+
+.lightboxNav:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-50%) scale(1.1);
+  color: var(--text-accent);
+}
+
+.lightboxPrev {
+  left: var(--space-6);
+}
+
+.lightboxNext {
+  right: var(--space-6);
+}
+
+/* En mobile, mover las flechas un poco más arriba o hacerlas más pequeñas si molestan */
+@media (max-width: 640px) {
+  .lightboxClose {
+    top: var(--space-4);
+    right: var(--space-4);
+  }
+  .lightboxNav {
+    padding: var(--space-2);
+  }
+  .lightboxPrev {
+    left: var(--space-2);
+  }
+  .lightboxNext {
+    right: var(--space-2);
+  }
+}
+
+.lightboxContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95vw;
+  height: 85vh;
+  max-width: none !important;
+  max-height: none !important;
+  overflow: visible;
+  animation: scaleIn var(--duration-normal) var(--ease-out-back);
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.lightboxImage {
+  width: auto;
+  height: auto;
+  max-width: 95vw;
+  max-height: 85vh;
+  min-width: 50vw;
+  object-fit: contain;
+  border-radius: var(--radius-lg);
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.5));
+  user-select: none;
+  pointer-events: none; /* Evita arrastres accidentales */
+}
+
+.lightboxCounter {
+  margin-top: var(--space-4);
+  color: var(--text-secondary);
+  font-size: var(--text-body-sm);
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+}
+
+.lightboxThumbnails {
+  position: absolute;
+  bottom: var(--space-6);
+  display: flex;
+  gap: var(--space-3);
+  max-width: 90%;
+  overflow-x: auto;
+  padding: var(--space-2);
+  justify-content: center;
+  z-index: 10001;
+}
+
+.lightboxThumbnail {
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid transparent;
+  background-color: var(--bg-secondary);
+  flex-shrink: 0;
+  transition: all var(--duration-fast) var(--ease-default);
+  padding: 0;
+}
+
+.lightboxThumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lightboxThumbnail:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.lightboxThumbActive {
+  border-color: var(--border-focus) !important;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-height: 600px) {
+  .lightboxThumbnails {
+    display: none; /* Esconder miniaturas en orientaciones apaisadas muy bajas */
+  }
+  .lightboxImage {
+    max-height: 85vh;
+  }
+  .lightboxContent {
+    height: 90vh;
+  }
+}

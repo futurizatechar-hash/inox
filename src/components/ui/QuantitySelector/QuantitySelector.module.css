@@ -1,0 +1,53 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  height: 46px;
+  background-color: var(--bg-primary);
+}
+
+.button {
+  width: 42px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  transition: all var(--duration-fast) var(--ease-default);
+}
+
+.button:hover:not(:disabled) {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.input {
+  width: 42px;
+  height: 100%;
+  text-align: center;
+  border: none;
+  border-left: 1px solid var(--border-default);
+  border-right: 1px solid var(--border-default);
+  font-size: var(--text-body-sm);
+  font-weight: var(--font-semibold);
+  color: var(--text-primary);
+  background-color: transparent;
+  -moz-appearance: textfield;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input:focus {
+  outline: none;
+}

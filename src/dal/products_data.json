@@ -1,0 +1,2612 @@
+[
+  {
+    "id": "asadera",
+    "slug": "asadera",
+    "title": "ASADERA",
+    "price": 12474,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-simple",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/asadera-1.webp",
+    "gallery": [
+      "/images/products/asadera-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-aqua-l57-acero-304-57x43x22cm",
+    "slug": "bacha-aqua-l57-acero-304-57x43x22cm",
+    "title": "BACHA AQUA L57 Acero 304 57X43X22CM",
+    "price": 143971,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-simple",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 570,
+      "depth": 430,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/bacha-aqua-l57-acero-304-57x43x22cm-1.webp",
+    "gallery": [
+      "/images/products/bacha-aqua-l57-acero-304-57x43x22cm-2.webp",
+      "/images/products/bacha-aqua-l57-acero-304-57x43x22cm-3.webp",
+      "/images/products/bacha-aqua-l57-acero-304-57x43x22cm-4.webp",
+      "/images/products/bacha-aqua-l57-acero-304-57x43x22cm-5.webp",
+      "/images/products/bacha-aqua-l57-acero-304-57x43x22cm-6.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-aqua-l75-acero-304-75x43x22cm",
+    "slug": "bacha-aqua-l75-acero-304-75x43x22cm",
+    "title": "BACHA AQUA L75 Acero 304 75x43x22cm",
+    "price": 197401,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-simple",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 750,
+      "depth": 430,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/bacha-aqua-l75-acero-304-75x43x22cm-1.webp",
+    "gallery": [
+      "/images/products/bacha-aqua-l75-acero-304-75x43x22cm-2.webp",
+      "/images/products/bacha-aqua-l75-acero-304-75x43x22cm-3.webp",
+      "/images/products/bacha-aqua-l75-acero-304-75x43x22cm-4.webp",
+      "/images/products/bacha-aqua-l75-acero-304-75x43x22cm-5.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-cocina-estandar-m20-acero-inox-430-pileta-bajo-mesada",
+    "slug": "bacha-cocina-estandar-m20-acero-inox-430-pileta-bajo-mesada",
+    "title": "Bacha Cocina Estandar M20 Acero Inox 430 Pileta Bajo Mesada",
+    "price": 45020,
+    "comparePrice": null,
+    "line": "lavadero",
+    "category": "mesada-integrada",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": null,
+    "image": "/images/products/bacha-cocina-estandar-m20-acero-inox-430-pileta-bajo-mesada-1.webp",
+    "gallery": [
+      "/images/products/bacha-cocina-estandar-m20-acero-inox-430-pileta-bajo-mesada-2.webp",
+      "/images/products/bacha-cocina-estandar-m20-acero-inox-430-pileta-bajo-mesada-3.webp",
+      "/images/products/bacha-cocina-estandar-m20-acero-inox-430-pileta-bajo-mesada-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-cocina-estandar-m30-acero-inox-430-pileta-bajo-mesada-sop-70mm",
+    "slug": "bacha-cocina-estandar-m30-acero-inox-430-pileta-bajo-mesada-sop-70mm",
+    "title": "Bacha Cocina Estandar M30 Acero Inox 430 Pileta Bajo Mesada SOP 70MM",
+    "price": 86000,
+    "comparePrice": null,
+    "line": "lavadero",
+    "category": "mesada-integrada",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": null,
+    "image": "/images/products/bacha-cocina-estandar-m30-acero-inox-430-pileta-bajo-mesada-sop-70mm-1.webp",
+    "gallery": [
+      "/images/products/bacha-cocina-estandar-m30-acero-inox-430-pileta-bajo-mesada-sop-70mm-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-cocina-estandar-m30c-acero-inox-430-pileta-bajo-mesada-sop-110mm",
+    "slug": "bacha-cocina-estandar-m30c-acero-inox-430-pileta-bajo-mesada-sop-110mm",
+    "title": "Bacha Cocina Estandar M30c Acero Inox 430 Pileta Bajo Mesada SOP 110MM",
+    "price": 92400,
+    "comparePrice": null,
+    "line": "lavadero",
+    "category": "mesada-integrada",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": null,
+    "image": "/images/products/bacha-cocina-estandar-m30c-acero-inox-430-pileta-bajo-mesada-sop-110mm-1.webp",
+    "gallery": [
+      "/images/products/bacha-cocina-estandar-m30c-acero-inox-430-pileta-bajo-mesada-sop-110mm-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-cocina-standar-m20-bacha-profunda-acero-mate",
+    "slug": "bacha-cocina-standar-m20-bacha-profunda-acero-mate",
+    "title": "Bacha Cocina Standar M20 Bacha Profunda Acero Mate",
+    "price": 49639,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-simple",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/bacha-cocina-standar-m20-bacha-profunda-acero-mate-1.webp",
+    "gallery": [
+      "/images/products/bacha-cocina-standar-m20-bacha-profunda-acero-mate-2.webp",
+      "/images/products/bacha-cocina-standar-m20-bacha-profunda-acero-mate-3.webp",
+      "/images/products/bacha-cocina-standar-m20-bacha-profunda-acero-mate-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-cuore-acero-304-80x50x22cm",
+    "slug": "bacha-cuore-acero-304-80x50x22cm",
+    "title": "BACHA CUORE Acero 304 80X50X22CM",
+    "price": 202226,
+    "comparePrice": null,
+    "line": "premium",
+    "category": "bacha-simple",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia",
+      "Terminación satinada premium"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 800,
+      "depth": 500,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/bacha-cuore-acero-304-80x50x22cm-1.webp",
+    "gallery": [
+      "/images/products/bacha-cuore-acero-304-80x50x22cm-2.webp",
+      "/images/products/bacha-cuore-acero-304-80x50x22cm-3.webp",
+      "/images/products/bacha-cuore-acero-304-80x50x22cm-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-de-cocina-esquinera-mate-acero-inox-430-0-9-mm-grueso",
+    "slug": "bacha-de-cocina-esquinera-mate-acero-inox-430-0-9-mm-grueso",
+    "title": "Bacha De Cocina Esquinera Doble Mate Acero Inox 430 0,9 Mm Grueso",
+    "price": 184328,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-doble",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con esta bacha esquinera doble de Masecor. Diseño elegante, doble bacha y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.9mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/bacha-de-cocina-esquinera-mate-acero-inox-430-0-9-mm-grueso-1.webp",
+    "gallery": [
+      "/images/products/bacha-de-cocina-esquinera-mate-acero-inox-430-0-9-mm-grueso-2.webp",
+      "/images/products/bacha-de-cocina-esquinera-mate-acero-inox-430-0-9-mm-grueso-3.webp",
+      "/images/products/bacha-de-cocina-esquinera-mate-acero-inox-430-0-9-mm-grueso-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-14-cm-bajo-mesada-acero-inoxidable",
+    "slug": "bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-14-cm-bajo-mesada-acero-inoxidable",
+    "title": "Bacha De Cocina O Lavadero M10 Acero Inoxidable Sopapa De 110mm Medidas 30*38*14 Cm Bajo Mesada Acero Inoxidable",
+    "price": 43066,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 300,
+      "depth": 380,
+      "height": 140,
+      "unit": "mm"
+    },
+    "image": "/images/products/bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-14-cm-bajo-mesada-acero-inoxidable-1.webp",
+    "gallery": [
+      "/images/products/bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-14-cm-bajo-mesada-acero-inoxidable-2.webp",
+      "/images/products/bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-14-cm-bajo-mesada-acero-inoxidable-3.webp",
+      "/images/products/bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-14-cm-bajo-mesada-acero-inoxidable-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-15-5-cm-bajo-mesada-acero-inoxidabl",
+    "slug": "bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-15-5-cm-bajo-mesada-acero-inoxidabl",
+    "title": "Bacha De Cocina O Lavadero M10 Acero Inoxidable Sopapa De 110mm Medidas 30*38*15.5 Cm Bajo Mesada Acero Inoxidabl",
+    "price": 42709,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 300,
+      "depth": 380,
+      "height": 150,
+      "unit": "mm"
+    },
+    "image": "/images/products/bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-15-5-cm-bajo-mesada-acero-inoxidabl-1.webp",
+    "gallery": [
+      "/images/products/bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-15-5-cm-bajo-mesada-acero-inoxidabl-2.webp",
+      "/images/products/bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-15-5-cm-bajo-mesada-acero-inoxidabl-3.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-15-5-cm-bajo-mesada-acero-inoxidable",
+    "slug": "bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-15-5-cm-bajo-mesada-acero-inoxidable",
+    "title": "Bacha De Cocina O Lavadero M10 Acero Inoxidable Sopapa De 110mm Medidas 30*38*15.5 Cm Bajo Mesada Acero Inoxidable",
+    "price": 46161,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 300,
+      "depth": 380,
+      "height": 150,
+      "unit": "mm"
+    },
+    "image": "/images/products/bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-15-5-cm-bajo-mesada-acero-inoxidable-1.webp",
+    "gallery": [
+      "/images/products/bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-15-5-cm-bajo-mesada-acero-inoxidable-2.webp",
+      "/images/products/bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-110mm-medidas-30-38-15-5-cm-bajo-mesada-acero-inoxidable-3.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-70mm-medidas-30-38-14-cm-bajo-mesada-acero-inoxidable",
+    "slug": "bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-70mm-medidas-30-38-14-cm-bajo-mesada-acero-inoxidable",
+    "title": "Bacha De Cocina O Lavadero M10 Acero Inoxidable Sopapa De 70mm Medidas 30*38*14 Cm Bajo Mesada Acero Inoxidable",
+    "price": 38574,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 300,
+      "depth": 380,
+      "height": 140,
+      "unit": "mm"
+    },
+    "image": "/images/products/bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-70mm-medidas-30-38-14-cm-bajo-mesada-acero-inoxidable-1.webp",
+    "gallery": [
+      "/images/products/bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-70mm-medidas-30-38-14-cm-bajo-mesada-acero-inoxidable-2.webp",
+      "/images/products/bacha-de-cocina-o-lavadero-m10-acero-inoxidable-sopapa-de-70mm-medidas-30-38-14-cm-bajo-mesada-acero-inoxidable-3.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-de-cocina-simple-lavadero-m20pc-acero-inoxidable-sopapa-medidas-50-33-15-5-cm-bajo-mesada-acero-inoxidable-terminacion-mate",
+    "slug": "bacha-de-cocina-simple-lavadero-m20pc-acero-inoxidable-sopapa-medidas-50-33-15-5-cm-bajo-mesada-acero-inoxidable-terminacion-mate",
+    "title": "Bacha De Cocina Simple Lavadero M20pc Acero Inoxidable Sopapa Medidas 50*33*15.5 Cm Bajo Mesada Acero Inoxidable Terminacion Mate",
+    "price": 62500,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 500,
+      "depth": 330,
+      "height": 150,
+      "unit": "mm"
+    },
+    "image": "/images/products/bacha-de-cocina-simple-lavadero-m20pc-acero-inoxidable-sopapa-medidas-50-33-15-5-cm-bajo-mesada-acero-inoxidable-terminacion-mate-1.webp",
+    "gallery": [
+      "/images/products/bacha-de-cocina-simple-lavadero-m20pc-acero-inoxidable-sopapa-medidas-50-33-15-5-cm-bajo-mesada-acero-inoxidable-terminacion-mate-2.webp",
+      "/images/products/bacha-de-cocina-simple-lavadero-m20pc-acero-inoxidable-sopapa-medidas-50-33-15-5-cm-bajo-mesada-acero-inoxidable-terminacion-mate-3.webp",
+      "/images/products/bacha-de-cocina-simple-lavadero-m20pc-acero-inoxidable-sopapa-medidas-50-33-15-5-cm-bajo-mesada-acero-inoxidable-terminacion-mate-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-esencial-acero-304-56x42x22cm",
+    "slug": "bacha-esencial-acero-304-56x42x22cm",
+    "title": "BACHA ESENCIAL Acero 304 56x42x22cm",
+    "price": 103742,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-simple",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 560,
+      "depth": 420,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/bacha-esencial-acero-304-56x42x22cm-1.webp",
+    "gallery": [
+      "/images/products/bacha-esencial-acero-304-56x42x22cm-2.webp",
+      "/images/products/bacha-esencial-acero-304-56x42x22cm-3.webp",
+      "/images/products/bacha-esencial-acero-304-56x42x22cm-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-l65-acero-304-65x43x22cm",
+    "slug": "bacha-l65-acero-304-65x43x22cm",
+    "title": "BACHA L65 Acero 304 65x43x22cm",
+    "price": 169335,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-simple",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 650,
+      "depth": 430,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/bacha-l65-acero-304-65x43x22cm-1.webp",
+    "gallery": [
+      "/images/products/bacha-l65-acero-304-65x43x22cm-2.webp",
+      "/images/products/bacha-l65-acero-304-65x43x22cm-3.webp",
+      "/images/products/bacha-l65-acero-304-65x43x22cm-4.webp",
+      "/images/products/bacha-l65-acero-304-65x43x22cm-5.webp",
+      "/images/products/bacha-l65-acero-304-65x43x22cm-6.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-l83-acero-304-83x43x22cm",
+    "slug": "bacha-l83-acero-304-83x43x22cm",
+    "title": "BACHA L83 acero 304 83x43x22CM",
+    "price": 217256,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-doble",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 830,
+      "depth": 430,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/bacha-l83-acero-304-83x43x22cm-1.webp",
+    "gallery": [
+      "/images/products/bacha-l83-acero-304-83x43x22cm-3.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-lav-600-acero-304-61x38x22cm",
+    "slug": "bacha-lav-600-acero-304-61x38x22cm",
+    "title": "BACHA LAV 600 Acero 304 61X38X22CM",
+    "price": 175676,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-simple",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 610,
+      "depth": 380,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/bacha-lav-600-acero-304-61x38x22cm-1.webp",
+    "gallery": [
+      "/images/products/bacha-lav-600-acero-304-61x38x22cm-2.webp",
+      "/images/products/bacha-lav-600-acero-304-61x38x22cm-3.webp",
+      "/images/products/bacha-lav-600-acero-304-61x38x22cm-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bacha-simple-cocina-m20-cestillo-acero-inox-aisi-430-mate",
+    "slug": "bacha-simple-cocina-m20-cestillo-acero-inox-aisi-430-mate",
+    "title": "Bacha Simple Cocina M20 Cestillo Acero Inox Aisi 430 Mate",
+    "price": 52900,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-simple",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/bacha-simple-cocina-m20-cestillo-acero-inox-aisi-430-mate-1.webp",
+    "gallery": [
+      "/images/products/bacha-simple-cocina-m20-cestillo-acero-inox-aisi-430-mate-2.webp",
+      "/images/products/bacha-simple-cocina-m20-cestillo-acero-inox-aisi-430-mate-3.webp",
+      "/images/products/bacha-simple-cocina-m20-cestillo-acero-inox-aisi-430-mate-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bandeja-prisma-mediana-26-36-8cm",
+    "slug": "bandeja-prisma-mediana-26-36-8cm",
+    "title": "BANDEJA PRISMA MEDIANA 26*36*8CM",
+    "price": 50936,
+    "comparePrice": null,
+    "line": "prisma",
+    "category": "bacha-simple",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 260,
+      "depth": 360,
+      "height": 80,
+      "unit": "mm"
+    },
+    "image": "/images/products/bandeja-prisma-mediana-26-36-8cm-1.webp",
+    "gallery": [
+      "/images/products/bandeja-prisma-mediana-26-36-8cm-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bandeja-prisma-mini-26-35-8cm",
+    "slug": "bandeja-prisma-mini-26-35-8cm",
+    "title": "BANDEJA PRISMA MINI 26*35*8CM",
+    "price": 59563,
+    "comparePrice": null,
+    "line": "prisma",
+    "category": "bacha-simple",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 260,
+      "depth": 350,
+      "height": 80,
+      "unit": "mm"
+    },
+    "image": "/images/products/bandeja-prisma-mini-26-35-8cm-1.webp",
+    "gallery": [
+      "/images/products/bandeja-prisma-mini-26-35-8cm-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "bandeja-prisma-xl-o-prisma-duo-20-38-6cm",
+    "slug": "bandeja-prisma-xl-o-prisma-duo-20-38-6cm",
+    "title": "BANDEJA PRISMA XL O PRISMA DUO 20*38*6CM",
+    "price": 50936,
+    "comparePrice": null,
+    "line": "prisma",
+    "category": "bacha-doble",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 200,
+      "depth": 380,
+      "height": 60,
+      "unit": "mm"
+    },
+    "image": "/images/products/bandeja-prisma-xl-o-prisma-duo-20-38-6cm-1.webp",
+    "gallery": [
+      "/images/products/bandeja-prisma-xl-o-prisma-duo-20-38-6cm-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "black-60-acero-304-60x46x22cm",
+    "slug": "black-60-acero-304-60x46x22cm",
+    "title": "BLACK 60 Acero 304 60x46x22cm",
+    "price": 290021,
+    "comparePrice": null,
+    "line": "premium",
+    "category": "bacha-simple",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia",
+      "Terminación satinada premium"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 600,
+      "depth": 460,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/black-60-acero-304-60x46x22cm-1.webp",
+    "gallery": [
+      "/images/products/black-60-acero-304-60x46x22cm-2.webp",
+      "/images/products/black-60-acero-304-60x46x22cm-3.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "canasto-aqua-l57-l65-26x38x13cm",
+    "slug": "canasto-aqua-l57-l65-26x38x13cm",
+    "title": "CANASTO AQUA L57-L65 26X38X13CM",
+    "price": 50936,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 260,
+      "depth": 380,
+      "height": 130,
+      "unit": "mm"
+    },
+    "image": "/images/products/canasto-aqua-l57-l65-26x38x13cm-1.webp",
+    "gallery": [
+      "/images/products/canasto-aqua-l57-l65-26x38x13cm-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "canasto-cuore-o-prisma-l-22x43x10cm",
+    "slug": "canasto-cuore-o-prisma-l-22x43x10cm",
+    "title": "CANASTO CUORE O PRISMA L 22X43X10CM",
+    "price": 50936,
+    "comparePrice": null,
+    "line": "prisma",
+    "category": "bacha-simple",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 220,
+      "depth": 430,
+      "height": 100,
+      "unit": "mm"
+    },
+    "image": "/images/products/canasto-cuore-o-prisma-l-22x43x10cm-1.webp",
+    "gallery": [
+      "/images/products/canasto-cuore-o-prisma-l-22x43x10cm-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "canasto-esencial-duo-33x38x12cm",
+    "slug": "canasto-esencial-duo-33x38x12cm",
+    "title": "CANASTO ESENCIAL DUO 33X38X12CM",
+    "price": 50936,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "Producto de acero inoxidable de alta calidad y precisión.",
+    "description": "",
+    "material": "Acero Inoxidable AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero Inoxidable AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 330,
+      "depth": 380,
+      "height": 120,
+      "unit": "mm"
+    },
+    "image": "/images/products/canasto-esencial-duo-33x38x12cm-1.webp",
+    "gallery": [
+      "/images/products/canasto-esencial-duo-33x38x12cm-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "canasto-esencial-o-gema-xl-22x36x11cm",
+    "slug": "canasto-esencial-o-gema-xl-22x36x11cm",
+    "title": "CANASTO ESENCIAL O GEMA XL 22X36X11CM",
+    "price": 50936,
+    "comparePrice": null,
+    "line": "premium",
+    "category": "bacha-simple",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia",
+      "Terminación satinada premium"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 220,
+      "depth": 360,
+      "height": 110,
+      "unit": "mm"
+    },
+    "image": "/images/products/canasto-esencial-o-gema-xl-22x36x11cm-1.webp",
+    "gallery": [
+      "/images/products/canasto-esencial-o-gema-xl-22x36x11cm-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "canasto-gema-o-aqua-l75-22x34x11cm",
+    "slug": "canasto-gema-o-aqua-l75-22x34x11cm",
+    "title": "CANASTO GEMA O AQUA L75 22X34X11CM",
+    "price": 50936,
+    "comparePrice": null,
+    "line": "premium",
+    "category": "bacha-simple",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia",
+      "Terminación satinada premium"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 220,
+      "depth": 340,
+      "height": 110,
+      "unit": "mm"
+    },
+    "image": "/images/products/canasto-gema-o-aqua-l75-22x34x11cm-1.webp",
+    "gallery": [],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "canasto-para-r-45",
+    "slug": "canasto-para-r-45",
+    "title": "CANASTO PARA R 45",
+    "price": 50936,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 260,
+      "depth": 380,
+      "height": 130,
+      "unit": "mm"
+    },
+    "image": "/images/products/canasto-para-r-45-1.webp",
+    "gallery": [
+      "/images/products/canasto-para-r-45-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "colador-gema-xl-o-esencial-duo-23-37-9cm",
+    "slug": "colador-gema-xl-o-esencial-duo-23-37-9cm",
+    "title": "COLADOR GEMA XL O ESENCIAL DUO 23*37*9CM",
+    "price": 50936,
+    "comparePrice": null,
+    "line": "premium",
+    "category": "bacha-doble",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia",
+      "Terminación satinada premium"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 230,
+      "depth": 370,
+      "height": 90,
+      "unit": "mm"
+    },
+    "image": "/images/products/colador-gema-xl-o-esencial-duo-23-37-9cm-1.webp",
+    "gallery": [
+      "/images/products/colador-gema-xl-o-esencial-duo-23-37-9cm-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "cubic-acero-304-61x46x20cm",
+    "slug": "cubic-acero-304-61x46x20cm",
+    "title": "CUBIC Acero 304 61X46X20CM",
+    "price": 190125,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-simple",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 610,
+      "depth": 460,
+      "height": 200,
+      "unit": "mm"
+    },
+    "image": "/images/products/cubic-acero-304-61x46x20cm-1.webp",
+    "gallery": [
+      "/images/products/cubic-acero-304-61x46x20cm-2.webp",
+      "/images/products/cubic-acero-304-61x46x20cm-3.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "dispenser-de-detergente-acero-inoxidable",
+    "slug": "dispenser-de-detergente-acero-inoxidable",
+    "title": "DISPENSER DE DETERGENTE ACERO INOXIDABLE",
+    "price": 39085,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/dispenser-de-detergente-acero-inoxidable-1.webp",
+    "gallery": [
+      "/images/products/dispenser-de-detergente-acero-inoxidable-2.webp",
+      "/images/products/dispenser-de-detergente-acero-inoxidable-3.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "dispenser-de-detergente-acero-inoxidable-con-cabezal-cuadrado-negro",
+    "slug": "dispenser-de-detergente-acero-inoxidable-con-cabezal-cuadrado-negro",
+    "title": "DISPENSER DE DETERGENTE ACERO INOXIDABLE CON CABEZAL CUADRADO NEGRO",
+    "price": 48545,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/dispenser-de-detergente-acero-inoxidable-con-cabezal-cuadrado-negro-1.webp",
+    "gallery": [
+      "/images/products/dispenser-de-detergente-acero-inoxidable-con-cabezal-cuadrado-negro-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "esencial-duo-acero-304-78x43x20cm",
+    "slug": "esencial-duo-acero-304-78x43x20cm",
+    "title": "ESENCIAL DUO Acero 304 78X43X20CM",
+    "price": 196466,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-doble",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 780,
+      "depth": 430,
+      "height": 200,
+      "unit": "mm"
+    },
+    "image": "/images/products/esencial-duo-acero-304-78x43x20cm-1.webp",
+    "gallery": [
+      "/images/products/esencial-duo-acero-304-78x43x20cm-2.webp",
+      "/images/products/esencial-duo-acero-304-78x43x20cm-3.webp",
+      "/images/products/esencial-duo-acero-304-78x43x20cm-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "gema-acero-304-68x45x22cm",
+    "slug": "gema-acero-304-68x45x22cm",
+    "title": "GEMA Acero 304 68X45X22CM",
+    "price": 171206,
+    "comparePrice": null,
+    "line": "premium",
+    "category": "bacha-simple",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia",
+      "Terminación satinada premium"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 680,
+      "depth": 450,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/gema-acero-304-68x45x22cm-1.webp",
+    "gallery": [
+      "/images/products/gema-acero-304-68x45x22cm-2.webp",
+      "/images/products/gema-acero-304-68x45x22cm-3.webp",
+      "/images/products/gema-acero-304-68x45x22cm-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "gema-xl-acero-304-80x50x22cm",
+    "slug": "gema-xl-acero-304-80x50x22cm",
+    "title": "GEMA XL Acero 304 80X50X22CM",
+    "price": 217669,
+    "comparePrice": null,
+    "line": "premium",
+    "category": "bacha-simple",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia",
+      "Terminación satinada premium"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 800,
+      "depth": 500,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/gema-xl-acero-304-80x50x22cm-1.webp",
+    "gallery": [
+      "/images/products/gema-xl-acero-304-80x50x22cm-2.webp",
+      "/images/products/gema-xl-acero-304-80x50x22cm-3.webp",
+      "/images/products/gema-xl-acero-304-80x50x22cm-4.webp",
+      "/images/products/gema-xl-acero-304-80x50x22cm-5.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "griferia-mesada-10612",
+    "slug": "griferia-mesada-10612",
+    "title": "GRIFERIA MESADA 10612",
+    "price": 68087,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "Producto de acero inoxidable de alta calidad y precisión.",
+    "description": "",
+    "material": "Acero Inoxidable AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero Inoxidable AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": null,
+    "image": "/images/products/griferia-mesada-10612-1.webp",
+    "gallery": [],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "griferia-mezcladora",
+    "slug": "griferia-mezcladora",
+    "title": "GRIFERIA MEZCLADORA",
+    "price": 102668,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/griferia-mezcladora-1.webp",
+    "gallery": [
+      "/images/products/griferia-mezcladora-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "griferia-pico-alto-10614",
+    "slug": "griferia-pico-alto-10614",
+    "title": "GRIFERIA PICO ALTO 10614",
+    "price": 75718,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/griferia-pico-alto-10614-1.webp",
+    "gallery": [
+      "/images/products/griferia-pico-alto-10614-2.webp",
+      "/images/products/griferia-pico-alto-10614-3.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "griferia-pico-bar-10014",
+    "slug": "griferia-pico-bar-10014",
+    "title": "GRIFERIA PICO BAR 10014",
+    "price": 83056,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/griferia-pico-bar-10014-1.webp",
+    "gallery": [
+      "/images/products/griferia-pico-bar-10014-2.webp",
+      "/images/products/griferia-pico-bar-10014-3.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "lavacopas-de-acero-inoxidable",
+    "slug": "lavacopas-de-acero-inoxidable",
+    "title": "LAVACOPAS DE ACERO INOXIDABLE",
+    "price": 32744,
+    "comparePrice": null,
+    "line": "lavadero",
+    "category": "bacha-simple",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/lavacopas-de-acero-inoxidable-1.webp",
+    "gallery": [],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-100-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero",
+    "slug": "mesada-100-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero",
+    "title": "Mesada 100 Cm Ciega Cocina (sin Bacha) -acero Inoxidable Grueso 100% Calidad Con O Sin Zócalo Trasero",
+    "price": 113617,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-ciega",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Diseño sin bacha (ciega) que ofrece una superficie amplia y uniforme, ideal para múltiples usos.",
+      "Borde antiderrame para proteger tu cocina de accidentes y mantenerla siempre limpia.",
+      "Zócalo trasero opcional de 45 mm, que podés elegir incluir o no según tus necesidades."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 1000,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-100-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-1.webp",
+    "gallery": [],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-100cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "slug": "mesada-100cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "title": "Mesada 100cm Bacha Simple De Acero Inoxidable Grueso - 100% Calidad + Asadera De Acero Profesional De Regalo",
+    "price": 177911,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-integrada",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Mesada reforzada con MDF simil madera resistente a la humedad, asegurando durabilidad y firmeza.",
+      "Zócalo trasero de 45 mm incluido, que protege la pared y aporta un acabado impecable.",
+      "Bandeja para horno profesional de regalo, un plus para tus preparaciones diarias.",
+      "Realizamos perforación para grifería sin cargo, adaptándonos a canillas monocomando o mezcladoras."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 500,
+      "depth": 320,
+      "height": 140,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-100cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-1.webp",
+    "gallery": [
+      "/images/products/mesada-100cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-2.webp",
+      "/images/products/mesada-100cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-3.webp",
+      "/images/products/mesada-100cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-4.webp",
+      "/images/products/mesada-100cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-5.webp",
+      "/images/products/mesada-100cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-6.webp",
+      "/images/products/mesada-100cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-7.webp",
+      "/images/products/mesada-100cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-8.webp",
+      "/images/products/mesada-100cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-9.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-110-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero",
+    "slug": "mesada-110-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero",
+    "title": "Mesada 110 Cm Ciega Cocina (sin Bacha) -acero Inoxidable Grueso 100% Calidad Con O Sin Zócalo Trasero",
+    "price": 126698,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-ciega",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Borde antiderrame: protege tu cocina de líquidos y mantiene la mesada siempre impecable."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 1100,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-110-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-1.webp",
+    "gallery": [
+      "/images/products/mesada-110-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-2.webp",
+      "/images/products/mesada-110-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-3.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-110cm-bacha-simple-de-acero-inoxidable-grueso-110-calidad-asadera-de-acero-profesional-de-regalo",
+    "slug": "mesada-110cm-bacha-simple-de-acero-inoxidable-grueso-110-calidad-asadera-de-acero-profesional-de-regalo",
+    "title": "Mesada 110cm Bacha Simple De Acero Inoxidable Grueso - 110% Calidad + Asadera De Acero Profesional De Regalo",
+    "price": 177911,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-integrada",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Mesada reforzada con MDF simil madera resistente a la humedad, asegurando durabilidad y firmeza.",
+      "Zócalo trasero de 45 mm incluido, que protege la pared y aporta un acabado impecable.",
+      "Bandeja para horno profesional de regalo, un plus para tus preparaciones diarias.",
+      "Realizamos perforación para grifería sin cargo, adaptándonos a canillas monocomando o mezcladoras."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 500,
+      "depth": 320,
+      "height": 140,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-110cm-bacha-simple-de-acero-inoxidable-grueso-110-calidad-asadera-de-acero-profesional-de-regalo-1.webp",
+    "gallery": [
+      "/images/products/mesada-110cm-bacha-simple-de-acero-inoxidable-grueso-110-calidad-asadera-de-acero-profesional-de-regalo-2.webp",
+      "/images/products/mesada-110cm-bacha-simple-de-acero-inoxidable-grueso-110-calidad-asadera-de-acero-profesional-de-regalo-3.webp",
+      "/images/products/mesada-110cm-bacha-simple-de-acero-inoxidable-grueso-110-calidad-asadera-de-acero-profesional-de-regalo-4.webp",
+      "/images/products/mesada-110cm-bacha-simple-de-acero-inoxidable-grueso-110-calidad-asadera-de-acero-profesional-de-regalo-5.webp",
+      "/images/products/mesada-110cm-bacha-simple-de-acero-inoxidable-grueso-110-calidad-asadera-de-acero-profesional-de-regalo-6.webp",
+      "/images/products/mesada-110cm-bacha-simple-de-acero-inoxidable-grueso-110-calidad-asadera-de-acero-profesional-de-regalo-7.webp",
+      "/images/products/mesada-110cm-bacha-simple-de-acero-inoxidable-grueso-110-calidad-asadera-de-acero-profesional-de-regalo-8.webp",
+      "/images/products/mesada-110cm-bacha-simple-de-acero-inoxidable-grueso-110-calidad-asadera-de-acero-profesional-de-regalo-9.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-120-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-copia",
+    "slug": "mesada-120-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-copia",
+    "title": "Mesada 120 Cm Ciega Cocina (sin Bacha) -acero Inoxidable Grueso 100% Calidad Con O Sin Zócalo Trasero - (copia)",
+    "price": 126715,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-ciega",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Diseño sin bacha (ciega) que ofrece una superficie amplia y uniforme, ideal para múltiples usos.",
+      "Borde antiderrame para proteger tu cocina de accidentes y mantenerla siempre limpia.",
+      "Zócalo trasero opcional de 45 mm, que podés elegir incluir o no según tus necesidades."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 1200,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-120-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-copia-1.webp",
+    "gallery": [
+      "/images/products/mesada-120-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-copia-2.webp",
+      "/images/products/mesada-120-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-copia-3.webp",
+      "/images/products/mesada-120-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-copia-4.webp",
+      "/images/products/mesada-120-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-copia-5.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-120cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "slug": "mesada-120cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "title": "Mesada 120cm Bacha Simple De Acero Inoxidable Grueso - 100% Calidad + Asadera De Acero Profesional De Regalo",
+    "price": 161784,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-integrada",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Mesada reforzada con MDF simil madera resistente a la humedad, asegurando durabilidad y firmeza.",
+      "Zócalo trasero de 45 mm incluido, que protege la pared y aporta un acabado impecable.",
+      "Bandeja para horno profesional de regalo, un plus para tus preparaciones diarias.",
+      "Realizamos perforación para grifería sin cargo, adaptándonos a canillas monocomando o mezcladoras."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 500,
+      "depth": 320,
+      "height": 140,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-120cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-1.webp",
+    "gallery": [
+      "/images/products/mesada-120cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-2.webp",
+      "/images/products/mesada-120cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-3.webp",
+      "/images/products/mesada-120cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-4.webp",
+      "/images/products/mesada-120cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-5.webp",
+      "/images/products/mesada-120cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-6.webp",
+      "/images/products/mesada-120cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-7.webp",
+      "/images/products/mesada-120cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-8.webp",
+      "/images/products/mesada-120cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-9.webp",
+      "/images/products/mesada-120cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-10.webp",
+      "/images/products/mesada-120cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-11.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-130cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "slug": "mesada-130cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "title": "Mesada 130cm Bacha Simple De Acero Inoxidable Grueso - 100% Calidad + Asadera De Acero Profesional De Regalo",
+    "price": 173880,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-integrada",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Mesada reforzada con MDF simil madera resistente a la humedad, asegurando durabilidad y firmeza.",
+      "Zócalo trasero de 45 mm incluido, que protege la pared y aporta un acabado impecable.",
+      "Bandeja para horno profesional de regalo, un plus para tus preparaciones diarias.",
+      "Realizamos perforación para grifería sin cargo, adaptándonos a canillas monocomando o mezcladoras."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 500,
+      "depth": 320,
+      "height": 140,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-130cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-1.webp",
+    "gallery": [
+      "/images/products/mesada-130cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-2.webp",
+      "/images/products/mesada-130cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-3.webp",
+      "/images/products/mesada-130cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-4.webp",
+      "/images/products/mesada-130cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-5.webp",
+      "/images/products/mesada-130cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-6.webp",
+      "/images/products/mesada-130cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-7.webp",
+      "/images/products/mesada-130cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-8.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-140-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero",
+    "slug": "mesada-140-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero",
+    "title": "Mesada 140 Cm Ciega Cocina (sin Bacha) -acero Inoxidable Grueso 100% Calidad Con O Sin Zócalo Trasero",
+    "price": 139889,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-ciega",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 1400,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-140-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-1.webp",
+    "gallery": [
+      "/images/products/mesada-140-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-140cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "slug": "mesada-140cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "title": "Mesada 140cm Bacha Simple De Acero Inoxidable Grueso - 100% Calidad + Asadera De Acero Profesional De Regalo",
+    "price": 173880,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-integrada",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Mesada reforzada con MDF simil madera resistente a la humedad, asegurando durabilidad y firmeza.",
+      "Zócalo trasero de 45 mm incluido, que protege la pared y aporta un acabado impecable.",
+      "Bandeja para horno profesional de regalo, un plus para tus preparaciones diarias.",
+      "Realizamos perforación para grifería sin cargo, adaptándonos a canillas monocomando o mezcladoras."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 500,
+      "depth": 320,
+      "height": 140,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-140cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-1.webp",
+    "gallery": [
+      "/images/products/mesada-140cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-2.webp",
+      "/images/products/mesada-140cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-3.webp",
+      "/images/products/mesada-140cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-4.webp",
+      "/images/products/mesada-140cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-5.webp",
+      "/images/products/mesada-140cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-6.webp",
+      "/images/products/mesada-140cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-7.webp",
+      "/images/products/mesada-140cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-8.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-150cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "slug": "mesada-150cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "title": "Mesada 150cm Bacha Simple De Acero Inoxidable Grueso - 100% Calidad + Asadera De Acero Profesional De Regalo",
+    "price": 185882,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-integrada",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Mesada reforzada con MDF simil madera resistente a la humedad, asegurando durabilidad y firmeza.",
+      "Zócalo trasero de 45 mm incluido, que protege la pared y aporta un acabado impecable.",
+      "Bandeja para horno profesional de regalo, un plus para tus preparaciones diarias.",
+      "Realizamos perforación para grifería sin cargo, adaptándonos a canillas monocomando o mezcladoras."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 500,
+      "depth": 320,
+      "height": 140,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-150cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-1.webp",
+    "gallery": [
+      "/images/products/mesada-150cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-2.webp",
+      "/images/products/mesada-150cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-3.webp",
+      "/images/products/mesada-150cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-4.webp",
+      "/images/products/mesada-150cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-5.webp",
+      "/images/products/mesada-150cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-6.webp",
+      "/images/products/mesada-150cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-7.webp",
+      "/images/products/mesada-150cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-8.webp",
+      "/images/products/mesada-150cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-9.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-160-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero",
+    "slug": "mesada-160-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero",
+    "title": "Mesada 160 Cm Ciega Cocina (sin Bacha) -acero Inoxidable Grueso 100% Calidad Con O Sin Zócalo Trasero",
+    "price": 153014,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-ciega",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 1600,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-160-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-1.webp",
+    "gallery": [
+      "/images/products/mesada-160-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-2.webp",
+      "/images/products/mesada-160-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-3.webp",
+      "/images/products/mesada-160-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-4.webp",
+      "/images/products/mesada-160-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-5.webp",
+      "/images/products/mesada-160-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-6.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-160cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "slug": "mesada-160cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "title": "Mesada 160cm Bacha Simple De Acero Inoxidable Grueso - 100% Calidad + Asadera De Acero Profesional De Regalo",
+    "price": 185882,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-integrada",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Mesada reforzada con MDF simil madera resistente a la humedad, asegurando durabilidad y firmeza.",
+      "Zócalo trasero de 45 mm incluido, que protege la pared y aporta un acabado impecable.",
+      "Bandeja para horno profesional de regalo, un plus para tus preparaciones diarias.",
+      "Realizamos perforación para grifería sin cargo, adaptándonos a canillas monocomando o mezcladoras."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 500,
+      "depth": 320,
+      "height": 140,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-160cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-1.webp",
+    "gallery": [
+      "/images/products/mesada-160cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-2.webp",
+      "/images/products/mesada-160cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-3.webp",
+      "/images/products/mesada-160cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-4.webp",
+      "/images/products/mesada-160cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-5.webp",
+      "/images/products/mesada-160cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-6.webp",
+      "/images/products/mesada-160cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-7.webp",
+      "/images/products/mesada-160cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-8.webp",
+      "/images/products/mesada-160cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-9.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-180-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero",
+    "slug": "mesada-180-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero",
+    "title": "Mesada 180 Cm Ciega Cocina (sin Bacha) -acero Inoxidable Grueso 100% Calidad Con O Sin Zócalo Trasero",
+    "price": 181902,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-ciega",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 1800,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-180-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-1.webp",
+    "gallery": [
+      "/images/products/mesada-180-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-2.webp",
+      "/images/products/mesada-180-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-3.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-180cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "slug": "mesada-180cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "title": "Mesada 180cm Bacha Simple De Acero Inoxidable Grueso - 100% Calidad + Asadera De Acero Profesional De Regalo",
+    "price": 231549,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-integrada",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Mesada reforzada con MDF simil madera resistente a la humedad, asegurando durabilidad y firmeza.",
+      "Zócalo trasero de 45 mm incluido, que protege la pared y aporta un acabado impecable.",
+      "Bandeja para horno profesional de regalo, un plus para tus preparaciones diarias.",
+      "Realizamos perforación para grifería sin cargo, adaptándonos a canillas monocomando o mezcladoras."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 500,
+      "depth": 320,
+      "height": 140,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-180cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-1.webp",
+    "gallery": [
+      "/images/products/mesada-180cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-2.webp",
+      "/images/products/mesada-180cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-3.webp",
+      "/images/products/mesada-180cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-4.webp",
+      "/images/products/mesada-180cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-5.webp",
+      "/images/products/mesada-180cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-6.webp",
+      "/images/products/mesada-180cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-7.webp",
+      "/images/products/mesada-180cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-8.webp",
+      "/images/products/mesada-180cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-9.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-200-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero",
+    "slug": "mesada-200-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero",
+    "title": "Mesada 200 Cm Ciega Cocina (sin Bacha) -acero Inoxidable Grueso 100% Calidad Con O Sin Zócalo Trasero",
+    "price": 198233,
+    "comparePrice": null,
+    "line": "industrial",
+    "category": "mesada-ciega",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 2000,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-200-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-1.webp",
+    "gallery": [
+      "/images/products/mesada-200-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-2.webp",
+      "/images/products/mesada-200-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-3.webp",
+      "/images/products/mesada-200-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-4.webp",
+      "/images/products/mesada-200-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-5.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-200cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "slug": "mesada-200cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "title": "Mesada 200cm Bacha Simple De Acero Inoxidable Grueso - 100% Calidad + Asadera De Acero Profesional De Regalo",
+    "price": 253638,
+    "comparePrice": null,
+    "line": "industrial",
+    "category": "mesada-integrada",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Mesada reforzada con MDF simil madera resistente a la humedad, asegurando durabilidad y firmeza.",
+      "Zócalo trasero de 45 mm incluido, que protege la pared y aporta un acabado impecable.",
+      "Bandeja para horno profesional de regalo, un plus para tus preparaciones diarias.",
+      "Realizamos perforación para grifería sin cargo, adaptándonos a canillas monocomando o mezcladoras."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 500,
+      "depth": 320,
+      "height": 140,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-200cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-1.webp",
+    "gallery": [
+      "/images/products/mesada-200cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-2.webp",
+      "/images/products/mesada-200cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-3.webp",
+      "/images/products/mesada-200cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-4.webp",
+      "/images/products/mesada-200cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-5.webp",
+      "/images/products/mesada-200cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-6.webp",
+      "/images/products/mesada-200cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-7.webp",
+      "/images/products/mesada-200cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-8.webp",
+      "/images/products/mesada-200cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-9.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-220cm-bacha-doble-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "slug": "mesada-220cm-bacha-doble-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "title": "Mesada 220cm Bacha Doble De Acero Inoxidable Grueso - 100% Calidad + Asadera De Acero Profesional De Regalo",
+    "price": 359875,
+    "comparePrice": null,
+    "line": "industrial",
+    "category": "mesada-integrada",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Mesada reforzada con MDF simil madera resistente a la humedad, asegurando durabilidad y firmeza.",
+      "Zócalo trasero de 45 mm incluido, que protege la pared y aporta un acabado impecable.",
+      "Bandeja para horno profesional de regalo, un plus para tus preparaciones diarias.",
+      "Realizamos perforación para grifería sin cargo, adaptándonos a canillas monocomando o mezcladoras."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 500,
+      "depth": 320,
+      "height": 140,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-220cm-bacha-doble-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-1.webp",
+    "gallery": [],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-220cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "slug": "mesada-220cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "title": "Mesada 220cm Bacha Simple De Acero Inoxidable Grueso - 100% Calidad + Asadera De Acero Profesional De Regalo",
+    "price": 305821,
+    "comparePrice": null,
+    "line": "industrial",
+    "category": "mesada-integrada",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Mesada reforzada con MDF simil madera resistente a la humedad, asegurando durabilidad y firmeza.",
+      "Zócalo trasero de 45 mm incluido, que protege la pared y aporta un acabado impecable.",
+      "Bandeja para horno profesional de regalo, un plus para tus preparaciones diarias.",
+      "Realizamos perforación para grifería sin cargo, adaptándonos a canillas monocomando o mezcladoras."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 500,
+      "depth": 320,
+      "height": 140,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-220cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-1.webp",
+    "gallery": [
+      "/images/products/mesada-220cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-2.webp",
+      "/images/products/mesada-220cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-3.webp",
+      "/images/products/mesada-220cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-4.webp",
+      "/images/products/mesada-220cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-5.webp",
+      "/images/products/mesada-220cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-6.webp",
+      "/images/products/mesada-220cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-7.webp",
+      "/images/products/mesada-220cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-8.webp",
+      "/images/products/mesada-220cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-9.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-80-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero",
+    "slug": "mesada-80-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero",
+    "title": "Mesada 80 Cm Ciega Cocina (sin Bacha) -acero Inoxidable Grueso 100% Calidad Con O Sin Zócalo Trasero -",
+    "price": 113617,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-ciega",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Diseño sin bacha (ciega) que ofrece una superficie amplia y uniforme, ideal para múltiples usos.",
+      "Borde antiderrame para proteger tu cocina de accidentes y mantenerla siempre limpia.",
+      "Zócalo trasero opcional de 45 mm, que podés elegir incluir o no según tus necesidades."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 800,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-80-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-1.webp",
+    "gallery": [
+      "/images/products/mesada-80-cm-ciega-cocina-sin-bacha-acero-inoxidable-grueso-100-calidad-con-o-sin-zocalo-trasero-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-80cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "slug": "mesada-80cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo",
+    "title": "Mesada 80cm Bacha Simple De Acero Inoxidable Grueso - 100% Calidad + Asadera De Acero Profesional De Regalo",
+    "price": 167048,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "mesada-integrada",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Mesada reforzada con MDF simil madera resistente a la humedad, asegurando durabilidad y firmeza.",
+      "Zócalo trasero de 45 mm incluido, que protege la pared y aporta un acabado impecable.",
+      "Bandeja para horno profesional de regalo, un plus para tus preparaciones diarias.",
+      "Realizamos perforación para grifería sin cargo, adaptándonos a canillas monocomando o mezcladoras."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 500,
+      "depth": 320,
+      "height": 140,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-80cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-1.webp",
+    "gallery": [
+      "/images/products/mesada-80cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-2.webp",
+      "/images/products/mesada-80cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-3.webp",
+      "/images/products/mesada-80cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-4.webp",
+      "/images/products/mesada-80cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-5.webp",
+      "/images/products/mesada-80cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-6.webp",
+      "/images/products/mesada-80cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-7.webp",
+      "/images/products/mesada-80cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-8.webp",
+      "/images/products/mesada-80cm-bacha-simple-de-acero-inoxidable-grueso-100-calidad-asadera-de-acero-profesional-de-regalo-9.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-de-120-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-copia",
+    "slug": "mesada-de-120-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-copia",
+    "title": "Mesada De 120 Cm Con Bacha Lava Ollas / Lavadero De 61x38x25 Cm Super Profunda- Inoxidable Grueso 100% Calidad + Envío - (copia)",
+    "price": 343971,
+    "comparePrice": null,
+    "line": "lavadero",
+    "category": "mesada-integrada",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Zócalo trasero opcional de 45 mm: Protege la pared y brinda un acabado profesional y cuidado."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 610,
+      "depth": 380,
+      "height": 250,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-de-120-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-copia-1.webp",
+    "gallery": [
+      "/images/products/mesada-de-120-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-copia-2.webp",
+      "/images/products/mesada-de-120-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-copia-3.webp",
+      "/images/products/mesada-de-120-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-copia-4.webp",
+      "/images/products/mesada-de-120-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-copia-5.webp",
+      "/images/products/mesada-de-120-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-copia-6.webp",
+      "/images/products/mesada-de-120-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-copia-7.webp",
+      "/images/products/mesada-de-120-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-copia-8.webp",
+      "/images/products/mesada-de-120-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-copia-9.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "mesada-de-160-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio",
+    "slug": "mesada-de-160-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio",
+    "title": "Mesada De 160 Cm Con Bacha Lava Ollas / Lavadero De 61x38x25 Cm Super Profunda- Inoxidable Grueso 100% Calidad + Envío",
+    "price": 419958,
+    "comparePrice": null,
+    "line": "lavadero",
+    "category": "mesada-integrada",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.7mm",
+    "features": [
+      "Mesada reforzada con MDF: Base resistente a la humedad que garantiza durabilidad y estabilidad.",
+      "Zócalo trasero opcional de 45 mm: Protege la pared y brinda un acabado profesional."
+    ],
+    "installationType": "sobre-mueble",
+    "dimensions": {
+      "width": 610,
+      "depth": 380,
+      "height": 250,
+      "unit": "mm"
+    },
+    "image": "/images/products/mesada-de-160-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-1.webp",
+    "gallery": [
+      "/images/products/mesada-de-160-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-2.webp",
+      "/images/products/mesada-de-160-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-3.webp",
+      "/images/products/mesada-de-160-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-4.webp",
+      "/images/products/mesada-de-160-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-5.webp",
+      "/images/products/mesada-de-160-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-6.webp",
+      "/images/products/mesada-de-160-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-7.webp",
+      "/images/products/mesada-de-160-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-8.webp",
+      "/images/products/mesada-de-160-cm-con-bacha-lava-ollas-lavadero-de-61x38x25-cm-super-profunda-inoxidable-grueso-100-calidad-envio-9.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "pileton-gastronomico-industrial-acero-304-1-25mm",
+    "slug": "pileton-gastronomico-industrial-acero-304-1-25mm",
+    "title": "PILETON gastronómico INDUSTRIAL Acero 304 1.25mm",
+    "price": 384511,
+    "comparePrice": null,
+    "line": "industrial",
+    "category": "bacha-simple",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/pileton-gastronomico-industrial-acero-304-1-25mm-1.webp",
+    "gallery": [
+      "/images/products/pileton-gastronomico-industrial-acero-304-1-25mm-2.webp",
+      "/images/products/pileton-gastronomico-industrial-acero-304-1-25mm-3.webp",
+      "/images/products/pileton-gastronomico-industrial-acero-304-1-25mm-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "prisma-duo-acero-304-82-45-22cm",
+    "slug": "prisma-duo-acero-304-82-45-22cm",
+    "title": "PRISMA DUO Acero 304 82*45*22CM",
+    "price": 425156,
+    "comparePrice": null,
+    "line": "prisma",
+    "category": "bacha-doble",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 820,
+      "depth": 450,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/prisma-duo-acero-304-82-45-22cm-1.webp",
+    "gallery": [
+      "/images/products/prisma-duo-acero-304-82-45-22cm-2.webp",
+      "/images/products/prisma-duo-acero-304-82-45-22cm-3.webp",
+      "/images/products/prisma-duo-acero-304-82-45-22cm-4.webp",
+      "/images/products/prisma-duo-acero-304-82-45-22cm-5.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "prisma-grafito-acero-304-78x48x22",
+    "slug": "prisma-grafito-acero-304-78x48x22",
+    "title": "PRISMA GRAFITO Acero 304 78x48x22",
+    "price": 536486,
+    "comparePrice": null,
+    "line": "prisma",
+    "category": "bacha-simple",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 780,
+      "depth": 480,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/prisma-grafito-acero-304-78x48x22-1.webp",
+    "gallery": [
+      "/images/products/prisma-grafito-acero-304-78x48x22-2.webp",
+      "/images/products/prisma-grafito-acero-304-78x48x22-3.webp",
+      "/images/products/prisma-grafito-acero-304-78x48x22-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "prisma-l-acero-304-76x45x25cm",
+    "slug": "prisma-l-acero-304-76x45x25cm",
+    "title": "PRISMA L Acero 304 76x45x25cm",
+    "price": 415488,
+    "comparePrice": null,
+    "line": "prisma",
+    "category": "bacha-simple",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 760,
+      "depth": 450,
+      "height": 250,
+      "unit": "mm"
+    },
+    "image": "/images/products/prisma-l-acero-304-76x45x25cm-1.webp",
+    "gallery": [
+      "/images/products/prisma-l-acero-304-76x45x25cm-2.webp",
+      "/images/products/prisma-l-acero-304-76x45x25cm-3.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "prisma-l-duo-acero-304-83x45x22cm",
+    "slug": "prisma-l-duo-acero-304-83x45x22cm",
+    "title": "PRISMA L DUO Acero 304 83x45x22cm",
+    "price": 492411,
+    "comparePrice": null,
+    "line": "prisma",
+    "category": "bacha-doble",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 830,
+      "depth": 450,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/prisma-l-duo-acero-304-83x45x22cm-1.webp",
+    "gallery": [
+      "/images/products/prisma-l-duo-acero-304-83x45x22cm-2.webp",
+      "/images/products/prisma-l-duo-acero-304-83x45x22cm-3.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "prisma-mediana-acero-304-68x46x22cm",
+    "slug": "prisma-mediana-acero-304-68x46x22cm",
+    "title": "PRISMA MEDIANA Acero 304 68x46x22cm",
+    "price": 361642,
+    "comparePrice": null,
+    "line": "prisma",
+    "category": "bacha-simple",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 680,
+      "depth": 460,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/prisma-mediana-acero-304-68x46x22cm-1.webp",
+    "gallery": [
+      "/images/products/prisma-mediana-acero-304-68x46x22cm-2.webp",
+      "/images/products/prisma-mediana-acero-304-68x46x22cm-3.webp",
+      "/images/products/prisma-mediana-acero-304-68x46x22cm-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "prisma-mini-acero-304-60x46x22cm",
+    "slug": "prisma-mini-acero-304-60x46x22cm",
+    "title": "PRISMA MINI Acero 304 60x46x22cm",
+    "price": 330561,
+    "comparePrice": null,
+    "line": "prisma",
+    "category": "bacha-simple",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 600,
+      "depth": 460,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/prisma-mini-acero-304-60x46x22cm-1.webp",
+    "gallery": [
+      "/images/products/prisma-mini-acero-304-60x46x22cm-2.webp",
+      "/images/products/prisma-mini-acero-304-60x46x22cm-3.webp",
+      "/images/products/prisma-mini-acero-304-60x46x22cm-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "prisma-xl-acero-304-78x45x22cm",
+    "slug": "prisma-xl-acero-304-78x45x22cm",
+    "title": "PRISMA XL Acero 304 78x45x22cm",
+    "price": 425156,
+    "comparePrice": null,
+    "line": "prisma",
+    "category": "bacha-simple",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": {
+      "width": 780,
+      "depth": 450,
+      "height": 220,
+      "unit": "mm"
+    },
+    "image": "/images/products/prisma-xl-acero-304-78x45x22cm-1.webp",
+    "gallery": [
+      "/images/products/prisma-xl-acero-304-78x45x22cm-2.webp",
+      "/images/products/prisma-xl-acero-304-78x45x22cm-3.webp",
+      "/images/products/prisma-xl-acero-304-78x45x22cm-4.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "roller",
+    "slug": "roller",
+    "title": "ROLLER",
+    "price": 20686,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/roller-1.webp",
+    "gallery": [
+      "/images/products/roller-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "sifon-doble",
+    "slug": "sifon-doble",
+    "title": "SIFON DOBLE",
+    "price": 13410,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/sifon-doble-1.webp",
+    "gallery": [
+      "/images/products/sifon-doble-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "sifon-simple",
+    "slug": "sifon-simple",
+    "title": "SIFON SIMPLE",
+    "price": 7173,
+    "comparePrice": null,
+    "line": "accesorios",
+    "category": "accesorio",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/sifon-simple-1.webp",
+    "gallery": [
+      "/images/products/sifon-simple-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "sop-cestillo-110mm-estandar",
+    "slug": "sop-cestillo-110mm-estandar",
+    "title": "SOP CESTILLO 110MM ESTANDAR",
+    "price": 6445,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-simple",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/sop-cestillo-110mm-estandar-1.webp",
+    "gallery": [
+      "/images/products/sop-cestillo-110mm-estandar-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "sop-comun-70mm",
+    "slug": "sop-comun-70mm",
+    "title": "SOP COMUN 70MM",
+    "price": 2703,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-simple",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/sop-comun-70mm-1.webp",
+    "gallery": [
+      "/images/products/sop-comun-70mm-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "sop-comun-cuadrada-con-antidesborde",
+    "slug": "sop-comun-cuadrada-con-antidesborde",
+    "title": "SOP COMUN CUADRADA CON ANTIDESBORDE",
+    "price": 29942,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-simple",
+    "shortDescription": "La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada.",
+    "description": "Renová tu espacio con este producto de Masecor. La combinación perfecta entre estética y practicidad. Pensada para el uso intensivo, garantiza un mantenimiento sencillo y una vida útil prolongada. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/sop-comun-cuadrada-con-antidesborde-1.webp",
+    "gallery": [
+      "/images/products/sop-comun-cuadrada-con-antidesborde-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "sop-comun-cuadrada-sin-antidesborde",
+    "slug": "sop-comun-cuadrada-sin-antidesborde",
+    "title": "SOP COMUN CUADRADA SIN ANTIDESBORDE",
+    "price": 18607,
+    "comparePrice": null,
+    "line": "standard",
+    "category": "bacha-simple",
+    "shortDescription": "Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento.",
+    "description": "Renová tu espacio con este producto de Masecor. Optimiza tu espacio con esta solución de alta gama. Su estructura robusta asegura un rendimiento impecable y una apariencia sofisticada en todo momento. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/sop-comun-cuadrada-sin-antidesborde-1.webp",
+    "gallery": [
+      "/images/products/sop-comun-cuadrada-sin-antidesborde-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "sop-premium-110mm-con-antidesborde",
+    "slug": "sop-premium-110mm-con-antidesborde",
+    "title": "SOP PREMIUM 110MM CON ANTIDESBORDE",
+    "price": 15073,
+    "comparePrice": null,
+    "line": "premium",
+    "category": "bacha-simple",
+    "shortDescription": "Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria.",
+    "description": "Renová tu espacio con este producto de Masecor. Diseño elegante y gran durabilidad. Ideal para cocinas modernas que buscan funcionalidad sin sacrificar el estilo. Su acabado premium facilita la limpieza diaria. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia",
+      "Terminación satinada premium"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/sop-premium-110mm-con-antidesborde-1.webp",
+    "gallery": [
+      "/images/products/sop-premium-110mm-con-antidesborde-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "sopapa-premium-sin-antidesborde",
+    "slug": "sopapa-premium-sin-antidesborde",
+    "title": "SOPAPA PREMIUM SIN ANTIDESBORDE",
+    "price": 11331,
+    "comparePrice": null,
+    "line": "premium",
+    "category": "bacha-simple",
+    "shortDescription": "Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio.",
+    "description": "Renová tu espacio con este producto de Masecor. Calidad superior y resistencia excepcional. Esta pieza destaca por su formato ergonómico, aportando una estética minimalista y profesional a tu espacio. Especialmente diseñado para adaptarse a cualquier mesada y ofrecerte la mejor experiencia de uso.",
+    "material": "Acero de alta calidad AISI 304",
+    "thickness": "0.6mm",
+    "features": [
+      "Acero de alta calidad AISI 304",
+      "Alta durabilidad y resistencia",
+      "Terminación satinada premium"
+    ],
+    "installationType": "bajo-mesada",
+    "dimensions": null,
+    "image": "/images/products/sopapa-premium-sin-antidesborde-1.webp",
+    "gallery": [
+      "/images/products/sopapa-premium-sin-antidesborde-2.webp"
+    ],
+    "sortOrder": 100,
+    "featured": false,
+    "available": true,
+    "variants": []
+  }
+]
